@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 import React, { useEffect, useState } from "react";
 import styled from "styled-components";
-import { Facebook, Github, Instragram, WhatsApp } from "../components/SVGs";
+import { Linkedin, Github, Instragram, WhatsApp } from "../components/SVGs";
 import { DarkTheme } from "../components/Themes";
 import { NavLink } from "react-router-dom";
 
@@ -70,8 +70,17 @@ const SocialIcons = (props) => {
         <Icons>
             <motion.div
                 initial={{scale:0 }}
+                animate={{ scale: [0.01, 1.2, 1] }}
+                transition={{ type: "spring", duration: 1, delay: 2.2 }}
+            >
+                <NavLink target="_blank" to={"https://www.linkedin.com/in/bruno-henrique-moreira-carvalho-2b543546/"}>
+                    <Linkedin height={25} width={25} fill={props.theme === "dark"  ? DarkTheme.text : DarkTheme.body } />
+                </NavLink>
+            </motion.div>
+            <motion.div
+                initial={{scale:0 }}
                 animate={{ scale: [0.01, 1.2, 1]}}
-                transition={{ type: "spring", duration: 1, delay: 2.2}}
+                transition={{ type: "spring", duration: 1, delay: 2.4}}
             >
                 <NavLink target="_blank" to={"https://github.com/brunoCarvalhoJr"}>
                     <Github height={25} width={25} fill={props.theme === "dark"  ? DarkTheme.text : DarkTheme.body } />
@@ -80,7 +89,7 @@ const SocialIcons = (props) => {
             <motion.div
                 initial={{scale:0 }}
                 animate={{ scale: [0.01, 1.2, 1] }}
-                transition={{ type: "spring", duration: 1, delay: 2.4 }}
+                transition={{ type: "spring", duration: 1, delay: 2.6}}
             >
                 <NavLink target="_blank" to={"https://wa.me/5535997389755"}>
                     <WhatsApp height={25} width={25} fill={props.theme === "dark"  ? DarkTheme.text : DarkTheme.body } />
@@ -89,16 +98,7 @@ const SocialIcons = (props) => {
             <motion.div
                 initial={{scale:0 }}
                 animate={{ scale: [0.01, 1.2, 1] }}
-                transition={{ type: "spring", duration: 1, delay: 2.6 }}
-            >
-                <NavLink target="_blank" to={"https://facebook.com/brunomcarvalhojr"}>
-                    <Facebook height={25} width={25} fill={props.theme === "dark"  ? DarkTheme.text : DarkTheme.body } />
-                </NavLink>
-            </motion.div>
-            <motion.div
-                initial={{scale:0 }}
-                animate={{ scale: [0.01, 1.2, 1] }}
-                transition={{ type: "spring", duration: 1, delay: 2.8 }}
+                transition={{ type: "spring", duration: 1, delay: 2.8}}
             >
                 <NavLink target="_blank" to={"https://instagram.com/bruno_carvalhojr/"}>
                     <Instragram height={25} width={25} fill={props.theme === "dark"  ? DarkTheme.text : DarkTheme.body } />
