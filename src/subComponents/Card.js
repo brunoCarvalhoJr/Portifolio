@@ -74,6 +74,8 @@ const Git = styled.a`
     margin-top: 8px;
     color: inherit;
     text-decoration: none;
+    margin-left: 1rem;
+    
     ${Box}:hover &{
         &>*{
             fill:${props =>props.theme.text};
