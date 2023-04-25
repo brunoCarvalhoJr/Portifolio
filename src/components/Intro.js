@@ -72,10 +72,13 @@ const SubBox = styled.div`
                 width: 9rem;
                 height: 14rem;
             };
+
+            @media(max-height: 850px) {
+                width: 12rem;
+                height: 18rem;
+            };
         }
-        
     };
-    
 `
 const Text = styled.div`
     font-size: calc(0.9em + 1.4vw);
@@ -132,13 +135,27 @@ const H4 = styled.h4`
 
 const H6 = styled.h6`
 `
+const show = {
+    opacity: 1,
+    height: '55vh',
+    display: "block"
+};
+  
+const hide = {
+    opacity: 0,
+    duration: 1.5,
+    height: '0vh',
+    transitionEnd: {
+        display: "none"
+    }
+};
 
-const Intro = () => {
+const Intro = (props) => {
     return (
         <Box
             initial={{height: 0}}
-            animate={{height: '55vh'}}
-            transition={{ type: 'spring', duration:2, delay: 1}}
+            animate={props.click ? show : hide}
+            transition={{ type: 'spring', duration:2, delay: props.click ? 1 : 0}}
         >
             <SubBox>
                 <Text>

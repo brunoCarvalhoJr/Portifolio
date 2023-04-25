@@ -11,7 +11,7 @@ import brunoimg from '../assets/Images/Bruno.Carvalho_man_tall_short_beard_progr
 const Box = styled.div`
     background-color: ${props => props.theme.body};
     width: 100vw;
-    height:100vh;
+    height:  100vh;
     position: relative;
     overflow: hidden;
 `
@@ -45,14 +45,17 @@ const Spaceman = styled.div`
 
     @media (max-width:800px) {
         margin-top: 8rem;
+        display: none;
     }
 
     @media (max-width: 700px) {
         margin-top: 8rem;
+        display: none;
     }
     
     @media (max-width: 500px) {
         margin-top: 8rem;
+        display: none;
     }
 `
 const Main =  styled.div`

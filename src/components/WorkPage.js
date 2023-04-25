@@ -17,6 +17,8 @@ const Box = styled.div`
     height: 400vh;
     position: relative;
     overflow: hidden;
+
+    
 `;
 
 const Main = styled(motion.ul)`
@@ -25,7 +27,7 @@ const Main = styled(motion.ul)`
     left: calc(10rem + 15vw);
     height: 40vh;
     display: flex;
-
+    
     color: white;
 `;
 const Rotate = styled.span`

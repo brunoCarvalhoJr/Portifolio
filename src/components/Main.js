@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import styled, { keyframes } from "styled-components";
-import PowerButton from "../subComponents/PowerButton";
 import LogoComponent from "../subComponents/LogoComponenet";
 import SocialIcons from "../subComponents/SocialIcons";
 import Intro from "./Intro";
@@ -34,7 +33,9 @@ const Contact = styled.a`
     z-index:1;
 
     @media(max-width: 600px) {
-        color: ${props => props.theme.body};
+        color: ${props => props.click ? props.theme.body : props.theme.text};
+        transition: color 1s ease;
+        transition-delay: 1s;
     };
 `
 const BLOG = styled(NavLink)`
@@ -48,6 +49,8 @@ const BLOG = styled(NavLink)`
 
     @media(max-width: 600px) {
         color: ${props => props.click ? props.theme.body : props.theme.text};
+        transition: color 1s ease;
+        transition-delay: 1s;
         top: 42%;
     };
 `
@@ -62,6 +65,8 @@ const WORK = styled(NavLink)`
 
     @media(max-width: 600px) {
         color: ${props => props.click ? props.theme.body : props.theme.text};
+        transition: color 1s ease;
+        transition-delay: 1s;
         top: 40%;
     };
 `
@@ -118,6 +123,7 @@ const Center = styled.button`
     justify-content: center;
     align-items: center;
     transition: all 1s ease;
+    transition-delay: ${props => props.click ? 'none' :'1s'  };
     &>:first-child{
         animation: ${rotate} infinite 2.5s linear;
     }
@@ -136,7 +142,8 @@ const DarkDiv = styled.div`
     width: ${props => props.click ? '50%' : '0%'};
     height: ${props => props.click ? '100%' : '0%'};
     z-index:1;
-    transition: height 0.5s ease, width 1s ease 0.5s;
+    transition: height 0.5s ease, width 1s ease 0.5s, background-color ${props => props.click ? '' : '5s ease'};
+   
 
     @media(max-width: 600px) {
         right: 0%;
@@ -149,12 +156,37 @@ const Img = styled.img`
     width: ${props => props.click ? '100px' : '200px'};
     height: ${props => props.click ? '100px' : '200px'};
 
+    transition: all;
+    transition-delay: ${props => props.click ? 'none' :'1s'  };
+    transition-duration: 1s;
+
     @media(max-width: 600px) {
         width: ${props => props.click ? '60px' : '120px'};
         height: ${props => props.click ? '60px' : '120px'};
         margin-right: ${props => props.click ? '3rem' : ''};
     };
 `
+
+const show = {
+    opacity: 1,
+    display: "block",
+};
+  
+const hide = {
+    opacity: 0,
+    duration: 1.5,
+    transitionEnd: {
+        display: "none"
+    }
+};
+  
+const hide2 = {
+    opacity: 0,
+};
+
+const show2 = {
+    opacity: 1,
+};
 
 const Main = () => {
 
@@ -175,10 +207,15 @@ const Main = () => {
 
                 <Center click={click}>
                     <Img click={click}  onClick={() => handleClick()} fill='currentColor' src={YinYang} alt="IngYang" />
-                    <span>Clique Aqui</span>
+                    <motion.span
+                        animate={click ? hide : show}
+                        transition={{delay: click ? 0 : 2}}
+                    >
+                        <span>Clique Aqui</span>
+                    </motion.span>
                 </Center>
 
-                <Contact target="_blank" href="mailto:bruno.jr.ti@hotmail.com">
+                <Contact target="_blank" href="mailto:bruno.jr.ti@hotmail.com" click={click}>
                     <motion.h2
                         initial={{
                             y:-200,
@@ -261,7 +298,13 @@ const Main = () => {
                     </SKILLS>
                 </BottomBar>
             </Container>
-            {click ? <Intro click={click} /> : null }
+            <Intro click={+click}/>
+            {/*<motion.div 
+                transition={{ duration: 1 }}
+                animate={click ? show : hide}
+            >
+                <Intro/>
+                        </motion.div>*/}
         </MainContainer>
     )
 }
