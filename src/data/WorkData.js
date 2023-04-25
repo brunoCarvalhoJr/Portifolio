@@ -2,6 +2,7 @@ export const Work = [
     {
         id:6,
         name:"Estrutura de  menu em react e Styled-Component",
+        description:"Estrutura de menu com animações feita em react  e styled components",
         tags:["react","styled-component","structure"],
         demo:"https://structure-front-react-router-dom-styled-componet-menu-react.vercel.app/",
         github:"https://github.com/brunoCarvalhoJr/structure-front-react-router-dom-styled-componet"
