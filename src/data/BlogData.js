@@ -1,69 +1,34 @@
 export const Blogs = [
     {
         id:1,
-        name:"Build Website with ReactJS, Styled-components and GSAP for Scrolling Animations",
-        tags:["react","gsap","styled-components"],
-        date:"13 May, 2021",
-        imgSrc:"https://res.cloudinary.com/practicaldev/image/fetch/s--sBeV06Xc--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2yrzy75q4dzibqz6rf82.png",
-        link:"https://dev.to/codebucks/build-website-with-reactjs-styled-components-and-gsap-for-scrolling-animations-2f10"
+        name:"Ciclo de vida de um componente React com o Effect Hook",
+        tags:["react","ciclodevida"],
+        date:"24 de abril de 2023",
+        imgSrc:"https://media.licdn.com/dms/image/D4D12AQHGgFtOjDoSvg/article-cover_image-shrink_423_752/0/1682381454558?e=1687996800&v=beta&t=xvw3GwL5cX6m0nR5EmBKiq3gjNV7l1IJLPufZrcz-U4",
+        link:"https://www.linkedin.com/pulse/ciclo-de-vida-um-componente-react-com-o-effect-hook-bruno/?trackingId=JY6gOMZYT2OAHWLcDPcw4w%3D%3D"
     },
     {
         id:2,
-        name:"How to create React Hamburger Menu using Styled-Components",
-        tags:["react","styled-components"],
-        date:"5 July, 2021",
-        imgSrc:"https://codebucks.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1625479747640%2F7KzwP9nmj.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75",
-        link:"https://codebucks.hashnode.dev/react-hamburger-menu"
+        name:"Fundamentos básicos de JavaScript necessários para aprender React",
+        tags:["react","fundamentosparareact","fundamentos"],
+        date:"01 de abril de 2019",
+        imgSrc:"https://res.cloudinary.com/practicaldev/image/fetch/s--50wZvNu6--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/1wwdyw5de8avrdkgtz5n.png",
+        link:"https://www.devmedia.com.br/fundamentos-basicos-de-javascript-necessarios-para-aprender-react/43553"
     },
     {
         id:3,
-        name:"React Loading Screen: Try these 3 cool loading screens for your app",
-        tags:["react","react-lottie","styled-components"],
-        date:"6 July, 2021",
-        imgSrc:"https://codebucks.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1625552344293%2Fegwis0UIX.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75",
-        link:"https://codebucks.hashnode.dev/react-loading-screens"
+        name:"Injeção de dependências no .NET Core 2.2",
+        tags:["net","netcore","dependencias"],
+        date:"01 de abril de 2019",
+        imgSrc:"https://static.gunnarpeipman.com/wp-content/uploads/2019/12/dotnet-core-featured.png.webp",
+        link:"https://www.devmedia.com.br/injecao-de-dependencias-no-net-core-2-2/40562"
     },
     {
         id:4,
-        name:"How to build a Fabulous Todo App using React, Redux and Framer-Motion",
-        tags:["react","redux","framer-motion"],
-        date:"26 May, 2021",
-        imgSrc:"https://res.cloudinary.com/practicaldev/image/fetch/s--r5oUDhhT--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/036s7j5b73up7455rdth.png",
-        link:"https://dev.to/codebucks/build-redux-react-todo-list-app-with-animations-using-framer-motion-1mp1"
+        name:"Aplicações self-contained com o .NET Core",
+        tags:["net","netcore","aplicacoesselfcontained"],
+        date:"01 de abril de 2022",
+        imgSrc:"https://dkrn4sk0rn31v.cloudfront.net/uploads/2017/07/aplicacoes-self-contained-com-o-net-core.png",
+        link:"https://www.treinaweb.com.br/blog/aplicacoes-self-contained-com-o-net-core"
     },
-    {
-        id:5,
-        name:"What is Higher Order Component (HOC) in React JS?",
-        tags:["react","reactJS","web-development"],
-        date:"3 Feb, 2021",
-        imgSrc:"https://codebucks.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1625295480148%2FlyKj8bpHK.jpeg%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75",
-        link:"https://codebucks.hashnode.dev/what-is-higher-order-component"
-    },
-    {
-        id:6,
-        name:"How to implement Pagination Component in React from scratch",
-        tags:["react","css"],
-        date:"5 Jan, 2021",
-        imgSrc:"https://codebucks.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1625240050668%2FGAya9b0XK.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75",
-        link:"https://codebucks.hashnode.dev/pagination-in-react"
-
-    },
-   
-    {
-        id:7,
-        name:"What is Redux ? Simply Explained!",
-        tags:["react","redux","javascript"],
-        date:"16 May, 2021",
-        imgSrc:"https://res.cloudinary.com/practicaldev/image/fetch/s--ZY1EK-Eo--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/bcz1u90oq3prr5fga3fs.png",
-        link:"https://dev.to/codebucks/what-is-redux-simply-explained-2ch7"
-    },
-    {
-        id:8,
-        name:"How to create Sidebar navigation menu in ReactJS with react router and framer-motion",
-        tags:["react","framer-motion","styled-components"],
-        date:"26 May, 2021",
-        imgSrc:"https://res.cloudinary.com/practicaldev/image/fetch/s--rv4I8UwE--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0a9h50milhlf1us6mn4a.png",
-        link:"https://dev.to/codebucks/build-sidebar-navigation-menu-in-reactjs-with-react-router-and-framer-motion-for-cool-page-transition-effects-4bc3"
-    },
-  
 ] 
