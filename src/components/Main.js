@@ -278,7 +278,7 @@ const Main = () => {
                             whileHover={{scale: 1.1}}
                             whileTap={{scale: 0.9}}
                         >
-                            Sobre.
+                            Sobre
                         </motion.h2>
                     </ABOUT>
                     <SKILLS to="/skills">
@@ -294,18 +294,12 @@ const Main = () => {
                             whileHover={{scale: 1.1}}
                             whileTap={{scale: 0.9}}
                         >
-                            Habilidades.
+                            Habilidades
                         </motion.h2>
                     </SKILLS>
                 </BottomBar>
             </Container>
             <Intro click={+click}/>
-            {/*<motion.div 
-                transition={{ duration: 1 }}
-                animate={click ? show : hide}
-            >
-                <Intro/>
-                        </motion.div>*/}
         </MainContainer>
     )
 }
