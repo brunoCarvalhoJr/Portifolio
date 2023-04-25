@@ -8,7 +8,7 @@ const Box = styled.div`
     cursor:pointer;
     position:fixed;
     left:8rem;
-    top:3rem;
+    top:2.7rem;
     z-index:10;
     &>*:nth-child(1){
         animation-delay: 0.2s;
@@ -74,7 +74,7 @@ const SoundBar = () => {
             <Line click={click}/>
             <Line click={click}/>
 
-            <audio /*preload='auto'*/ src={music} ref={ref}  loop />
+            <audio preload='auto' src={music} ref={ref}  loop />
         </Box>
     )
 }

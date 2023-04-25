@@ -1,3 +1,5 @@
+import { DarkTheme } from "./Themes"
+
 export const PowerBtn = (props) => {
     return (
       <svg
@@ -185,5 +187,23 @@ export const PowerBtn = (props) => {
         />
       </svg>
     )
+  }
+    
+  export const HeadSetVetor = (props) => { 
+      return (
+        <svg 
+        aria-hidden="true"
+        data-prefix="fas"
+        data-icon="laptop-code"
+        xmlns="http://www.w3.org/2000/svg" 
+        className="bi bi-headphones" 
+        viewBox="0 0 16 16"
+        style={{marginLeft: '10px',marginTop: '-3px' }}
+        {...props}
+        >
+          <path fill={DarkTheme.text} d="M0 0h220v220H0z"/>
+          <path fill={DarkTheme.body} d="M8 3a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V8a6 6 0 1 1 12 0v5a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h1V8a5 5 0 0 0-5-5z"/>
+        </svg>
+      )
   
   }
