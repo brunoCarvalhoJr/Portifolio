@@ -1,5 +1,12 @@
 export const Work = [
     {
+        id:6,
+        name:"Estrutura de  menu em react e Styled-Component",
+        tags:["react","styled-component","structure"],
+        demo:"https://structure-front-react-router-dom-styled-componet-menu-react.vercel.app/",
+        github:"https://github.com/brunoCarvalhoJr/structure-front-react-router-dom-styled-componet"
+    },
+    {
         id:1,
         name:"Gerador Automatico  de Crud .NetCore/ReactJs",
         description:"React and ASP.NET-6,0 project to facilitate the generation of CRUDs and their files in DDD..",
@@ -25,7 +32,7 @@ export const Work = [
         github:"https://github.com/brunoCarvalhoJr/modelo-projeto-reactJs-aspnet"
     },
     {
-        id:4,
+        id:5,
         name:"BoilerPlate React/TypeScript",
         description:"BoilerPlate React/TypeScript.",
         tags:["react","typescript","react-router"],
