@@ -229,7 +229,7 @@ const Main = () => {
                         whileHover={{scale: 1.1}}
                         whileTap={{scale: 0.9}}
                     >
-                        Fale comigo..
+                        Fale comigo...
                     </motion.h2>
                 </Contact>
                 <BLOG  click={+click} to="/blog">
