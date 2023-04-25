@@ -23,10 +23,48 @@ const Line = styled(motion.span)`
     width: 2px;
     height: 8rem;
     background-color: ${(props) => props.color === "dark" ? DarkTheme.text : DarkTheme.body};
+    
+    
+    @media(max-width: 600px) {
+        height: 1rem;
+    };
 `;
 
 
 const SocialIcons = (props) => {
+
+    const useMediaQuery = (query) => {
+        const [matches, setMatches] = useState(false);
+      
+        useEffect(() => {
+          const media = window.matchMedia(query);
+          if (media.matches !== matches) {
+            setMatches(media.matches);
+          }
+      
+          const listener = () => {
+            setMatches(media.matches);
+          };
+      
+          if (typeof media.addEventListener === "function") {
+            media.addEventListener("change", listener);
+          } else {
+            media.addListener(listener);
+          }
+      
+          return () => {
+            if (typeof media.removeEventListener === "function") {
+              media.removeEventListener("change", listener);
+            } else {
+              //media.removeListener(listenerList);
+            }
+          };
+        }, [matches, query]);
+      
+        return matches;
+      }
+
+    const isSmall = useMediaQuery("(min-width: 700px)");
 
     return (
         <Icons>
@@ -71,8 +109,10 @@ const SocialIcons = (props) => {
                 initial={{
                     height: 0
                 }}
-                animate={{
+                animate={isSmall ? {
                     height: '8rem'
+                } : {
+                    height: '2rem'
                 }}
                 transition={{
                     type: 'spring',  duration: 1, delay:2
