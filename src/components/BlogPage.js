@@ -17,6 +17,11 @@ const MainContainer = styled(motion.div)`
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
+
+    @media(max-width: 600px) {
+        width: 100%;
+        height: 100%;
+    };
 `
 const Container = styled.div`
     background-color: ${props => `rgba(${props.theme.bodyRgba},0.8)`};
@@ -24,6 +29,11 @@ const Container = styled.div`
     height: auto;
     position: relative;
     padding-bottom: 5rem;
+    
+    @media(max-width: 600px) {
+        width: 100%;
+        height: 100%;
+    };
 `
 
 const Center = styled.div`
@@ -35,8 +45,13 @@ const Center = styled.div`
 
 const Grid = styled.div`
     display: grid;
+    margin-left: 2rem;
     grid-template-columns: repeat(2, minmax(calc(10rem + 15vw), 1fr));
     grid-gap: calc(1rem + 2vw);
+    
+    @media(max-width: 600px) {
+        grid-template-columns: repeat(1, minmax(calc(10rem + 15vw), 1fr));
+    };
 `
 
 const container = {

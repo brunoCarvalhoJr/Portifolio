@@ -32,6 +32,10 @@ const Contact = styled.a`
     right: calc(1rem + 2vw);
     text-decoration: none;
     z-index:1;
+
+    @media(max-width: 600px) {
+        color: ${props => props.theme.body};
+    };
 `
 const BLOG = styled(NavLink)`
     color: ${props => props.theme.text};
@@ -41,6 +45,11 @@ const BLOG = styled(NavLink)`
     transform: rotate(90deg) translate(-50%, -50%);
     text-decoration: none;
     z-index:1;
+
+    @media(max-width: 600px) {
+        color: ${props => props.click ? props.theme.body : props.theme.text};
+        top: 42%;
+    };
 `
 const WORK = styled(NavLink)`
     color: ${props => props.click ? props.theme.body : props.theme.text};
@@ -50,6 +59,11 @@ const WORK = styled(NavLink)`
     transform: translate(-50%, -50%) rotate(-90deg) ;
     text-decoration: none;
     z-index:1;
+
+    @media(max-width: 600px) {
+        color: ${props => props.click ? props.theme.body : props.theme.text};
+        top: 40%;
+    };
 `
 
 const BottomBar = styled.div`
@@ -66,20 +80,28 @@ const ABOUT = styled(NavLink)`
     color: ${props => props.click ? props.theme.body : props.theme.text};
     text-decoration: none;
     z-index:1;
+    
+    @media(max-width: 600px) {
+        color: ${props => props.theme.text};
+    };
 `
 const SKILLS = styled(NavLink)`
     color: ${props => props.theme.text};
     text-decoration: none;
     z-index:1;
+    
+    @media(max-width: 600px) {
+        color: ${props => props.theme.text};
+    };
 `
 
 const rotate = keyframes`
     from{
         transform: rotate(0);
-    }
+    };
     to{
         transform: rotate(360deg);
-    }
+    };
 `
 
 const Center = styled.button`
@@ -115,6 +137,23 @@ const DarkDiv = styled.div`
     height: ${props => props.click ? '100%' : '0%'};
     z-index:1;
     transition: height 0.5s ease, width 1s ease 0.5s;
+
+    @media(max-width: 600px) {
+        right: 0%;
+        width: ${props => props.click ? '100%' : '0%'};
+        height: ${props => props.click ? '50%' : '0%'};
+    };
+`
+
+const Img = styled.img`
+    width: ${props => props.click ? '100px' : '200px'};
+    height: ${props => props.click ? '100px' : '200px'};
+
+    @media(max-width: 600px) {
+        width: ${props => props.click ? '60px' : '120px'};
+        height: ${props => props.click ? '60px' : '120px'};
+        margin-right: ${props => props.click ? '3rem' : ''};
+    };
 `
 
 const Main = () => {
@@ -135,7 +174,7 @@ const Main = () => {
                 <SocialIcons theme={click ? 'dark' : 'light'}/>
 
                 <Center click={click}>
-                    <img  onClick={() => handleClick()} width={click ? 100 : 200} height={click ? 100 : 200} fill='currentColor' src={YinYang} alt="IngYang" />
+                    <Img click={click}  onClick={() => handleClick()} fill='currentColor' src={YinYang} alt="IngYang" />
                     <span>Clique Aqui</span>
                 </Center>
 
@@ -155,7 +194,7 @@ const Main = () => {
                         Fale comigo..
                     </motion.h2>
                 </Contact>
-                <BLOG to="/blog">
+                <BLOG  click={+click} to="/blog">
                     <motion.h2
                         initial={{
                             y:-200,

@@ -19,7 +19,12 @@ const Box = styled(motion.a)`
     color: ${(props) => props.theme.body};
     background-color: ${(props) => props.theme.text};
     transition: all 0.3s ease;
-  }
+  };
+  
+  @media (max-width: 600px) {
+      width: calc(7rem + 10vw);
+      height: 12rem;
+  };
 `;
 
 const Image = styled.div`
@@ -31,27 +36,49 @@ const Image = styled.div`
   background-position: center center;
   ${Box}:hover & {
     border: 1px solid ${(props) => props.theme.body};
-  }
+  };
 `;
+
 const Title = styled.h3`
   color: inherit;
   padding: 0.5rem 0;
   padding-top: 1rem;
+  padding-bottom: 1rem;
   font-family: "Karla", sans-serif;
   font-weight: 700;
   border-bottom: 1px solid ${(props) => props.theme.text};
   ${Box}:hover & {
     border-bottom: 1px solid ${(props) => props.theme.body};
-  }
+  };
+  overflow: hidden;
+  @media (max-width: 600px) {
+      font-size: 15px;
+      padding-bottom: 2rem;
+  };
 `;
+
 const HashTags = styled.div`
   padding: 0.5rem 0;
+  overflow: hidden;
+  @media (max-width: 600px) {
+      font-size: 10px;
+  };
 `;
+
 const Tag = styled.span`
   padding-right: 0.5rem;
+  overflow: hidden;
+  @media (max-width: 600px) {
+      font-size: 10px;
+  };
 `;
+
 const Date = styled.span`
   padding: 0.5rem 0;
+  overflow: hidden;
+  @media (max-width: 600px) {
+      font-size: 10px;
+  };
 `;
 
 const Container = styled(motion.div)``;

@@ -28,7 +28,19 @@ const Box = styled(motion.div)`
         border-left: 2px solid ${props => props.theme.body};
         border-right: 2px solid ${props => props.theme.text};
 
-        z-index:1;
+    z-index:1;
+
+    @media(max-width: 600px) {
+        display: flow-root;
+        background: 
+            linear-gradient(
+            to top,
+            ${props => props.theme.body} 50%,
+            ${props => props.theme.text} 50%) right;
+        border-top: 2px solid ${props => props.theme.body};
+        border-bottom: 2px solid ${props => props.theme.text};
+        -webkit-border-image: -webkit-gradient(linear, left top, left bottom, from(${props => props.theme.body}), to(${props => props.theme.text})) 0% 100% 0% 100% stretch;
+    };
 `
 const SubBox = styled.div`
     width: 50%;
@@ -43,6 +55,27 @@ const SubBox = styled.div`
         width: 60%;
         height: auto;
     }
+
+    @media(max-width: 600px) {
+        width: 100%;
+        display: inline-flex;
+        position: initial;
+        .pic{
+            width: 12.5rem;
+            height: 20rem;
+            position: absolute;
+            left: 56%;
+            bottom: 0;
+            transform: translate(-50%, 0%);
+
+            @media(max-height: 700px) {
+                width: 9rem;
+                height: 14rem;
+            };
+        }
+        
+    };
+    
 `
 const Text = styled.div`
     font-size: calc(0.9em + 1.4vw);
@@ -59,6 +92,45 @@ const Text = styled.div`
         font-size: calc(0.5rem + 1.5vw);
         font-weight:300;
     }
+    
+
+    @media(max-width: 600px) {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        font-size: calc(0.7em + 1.1vw);
+
+        &>*:last-child{
+            font-size: calc(0.4rem + 1.1vw);
+            font-weight:150;
+        }
+    };
+`
+
+const H1 = styled.h1`
+
+    @media(max-width: 600px) {
+        margin-bottom: 15px;
+        @media(max-height: 700px) {
+            margin-bottom: 5px;
+        };
+    };
+`
+
+const H4 = styled.h4`
+
+    @media(max-width: 600px) {
+        margin-bottom: 15px;
+        @media(max-height: 700px) {
+            margin-bottom: 5px;
+        };
+    };
+`
+
+const H6 = styled.h6`
 `
 
 const Intro = () => {
@@ -70,9 +142,9 @@ const Intro = () => {
         >
             <SubBox>
                 <Text>
-                    <h1>Olá,</h1>
-                    <h4>Sou Bruno Carvalho.</h4>
-                    <h6>Um Full Stack Developer e Scrum Master.</h6>
+                    <H1>Olá,</H1>
+                    <H4>Sou Bruno Carvalho.</H4>
+                    <H6>Um Full Stack Developer e Scrum Master.</H6>
                 </Text>
             </SubBox>
             <SubBox>

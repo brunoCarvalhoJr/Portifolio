@@ -21,6 +21,10 @@ const Power = styled.button`
     align-items: center;
     z-index: 3;
 
+    @media (max-width: 600px) {
+         top:  5rem;
+    };
+
     cursor: pointer;
 
     &:hover{

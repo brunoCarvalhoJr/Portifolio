@@ -26,6 +26,26 @@ const PreDisplay = styled.div`
     right: 2rem;
 `
 
+const AnchorI = styled(Anchor)`
+    width: 70px;
+    height:  70px;
+
+    @media(max-width: 600px) {
+        width: 30px;
+        height: 30px;
+    };
+`
+
+const LinkI = styled(Link)`
+    width: 25px;
+    height:  25px;
+
+    @media(max-width: 600px) {
+        width: 10px;
+        height: 10px;
+    };
+`
+
 const AnchorComponent = (props) => {
 
     const ref = useRef(null);
@@ -59,15 +79,15 @@ const AnchorComponent = (props) => {
     return (
         <Container>
         <PreDisplay ref={hiddenRef} className='hidden'>
-            <Anchor width={70} height={70} fill='currentColor'/>
+        <AnchorI fill='currentColor'/>
         </PreDisplay>
             <Slider ref={ref}>
                 {
                     [...Array(props.number)].map((x,id) => {
-                        return <Link key={id} width={25} height={25} fill='currentColor' className="chain" />
+                        return <LinkI key={id} width={25} height={25} fill='currentColor' className="chain" />
                     })
                 }
-                <Anchor width={70} height={70} fill='currentColor'/>
+                <AnchorI fill='currentColor'/>
             </Slider>
         </Container>
     )
