@@ -7,6 +7,7 @@ import { NavLink } from "react-router-dom";
 import YinYang from '../assets/Images/INGYANG.png';
 import { motion } from 'framer-motion';
 import TransitionEffect from "./TransitionEffect";
+import { ArrowUp } from "./SVGs";
 
 const MainContainer = styled.div`
     background: ${props => props.theme.body};
@@ -211,7 +212,7 @@ const Main = () => {
                         animate={click ? hide : show}
                         transition={{delay: click ? 0 : 2}}
                     >
-                        <span>Clique Aqui</span>
+                        <ArrowUp  />
                     </motion.span>
                 </Center>
 
