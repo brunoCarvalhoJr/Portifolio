@@ -212,7 +212,7 @@ const Main = () => {
                         animate={click ? hide : show}
                         transition={{delay: click ? 0 : 2}}
                     >
-                        <ArrowUp  />
+                        <ArrowUp onClick={() => handleClick()} />
                     </motion.span>
                 </Center>
 
