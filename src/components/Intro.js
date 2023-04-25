@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState} from "react";
 import styled from "styled-components";
 import { motion }  from 'framer-motion';
 import Me from '../assets/Images/profile-img.png';
@@ -140,6 +140,12 @@ const show = {
     height: '55vh',
     display: "block"
 };
+
+const show2 = {
+    opacity: 1,
+    height: '55vh',
+    display: "inline-flex"
+};
   
 const hide = {
     opacity: 0,
@@ -151,10 +157,45 @@ const hide = {
 };
 
 const Intro = (props) => {
+    
+
+    const useMediaQuery = (query) => {
+        const [matches, setMatches] = useState(false);
+      
+        useEffect(() => {
+          const media = window.matchMedia(query);
+          if (media.matches !== matches) {
+            setMatches(media.matches);
+          }
+      
+          const listener = () => {
+            setMatches(media.matches);
+          };
+      
+          if (typeof media.addEventListener === "function") {
+            media.addEventListener("change", listener);
+          } else {
+            media.addListener(listener);
+          }
+      
+          return () => {
+            if (typeof media.removeEventListener === "function") {
+              media.removeEventListener("change", listener);
+            } else {
+              //media.removeListener(listenerList);
+            }
+          };
+        }, [matches, query]);
+      
+        return matches;
+      }
+
+    const isSmall = useMediaQuery("(min-width: 700px)");
+
     return (
         <Box
             initial={{height: 0}}
-            animate={props.click ? show : hide}
+            animate={props.click ? (isSmall ? show2 : show) : hide}
             transition={{ type: 'spring', duration:2, delay: props.click ? 1 : 0}}
         >
             <SubBox>
