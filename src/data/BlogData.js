@@ -1,5 +1,13 @@
 export const Blogs = [
     {
+        id:5,
+        name:"O que é ReactJS e por que é tão popular ? E ainda vale a pena utilizar em 2023 ?",
+        tags:["react","reactjs","reactnative","reactjs2023","webdevelopment","webdev"],
+        date:"1 de maio de 2023",
+        imgSrc:"https://media.licdn.com/dms/image/D4E12AQHOgnbfYsMEmQ/article-cover_image-shrink_600_2000/0/1682980539955?e=1688601600&v=beta&t=VzJiax9Jd9SAoWiUnZjJ9k8-Paqd86dbkRPYoWj-L4M",
+        link:"https://www.linkedin.com/pulse/o-que-%25C3%25A9-reactjs-e-por-t%25C3%25A3o-popular-ainda-vale-pena-em-bruno/?published=t"
+    },
+    {
         id:1,
         name:"Ciclo de vida de um componente React com o Effect Hook",
         tags:["react","ciclodevida"],
