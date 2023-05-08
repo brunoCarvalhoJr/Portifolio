@@ -69,7 +69,7 @@ const Main =  styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: calc(0.6rem + 1vw);
+    font-size: calc(0.6rem + 0.8vw);
     backdrop-filter: blur(4px);
     
     position: absolute;
@@ -77,6 +77,11 @@ const Main =  styled.div`
     top: 10rem;
     font-family: 'Ubuntu Mono', monospace;
     font-style: italic;
+    
+    
+    @media (max-height: 800px) {
+        font-size: calc(0.6rem + 0.6vw);
+    }
 `
 
 const AboutPage = () => {
@@ -98,7 +103,7 @@ const AboutPage = () => {
                     <br/> <br/>
                     Minha atual experiência como Full Stack me permite atender várias demandas do mercado, sempre trabalhando com as melhores metodologias e tecnologias do mercado.
                     <br/> <br/>
-                    Já a algum tempo venho educando equipes e implementando o framework Scrum pelos projetos onde passo como um Scrum Master.
+                    Já a algum tempo venho educando equipes e implementando o framework Scrum pelos projetos onde passo como um Scrum Master certificado PSM.
                 </Main>
                 <BigTitle text="SOBRE" top="5%" left="5%" />
             </Box>

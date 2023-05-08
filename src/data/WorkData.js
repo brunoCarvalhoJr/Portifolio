@@ -1,5 +1,13 @@
 export const Work = [
     {
+        id:7,
+        name:"Carrossel de imagens em react e Styled-Component",
+        description:"Carrossel de imagens em react e Styled-Component",
+        tags:["carroussel","styled-component","react"],
+        demo:"https://carousel-react-styled-comp.vercel.app/",
+        github:"https://github.com/brunoCarvalhoJr/carousel-react-styled-comp"
+    },
+    {
         id:6,
         name:"Estrutura de  menu em react e Styled-Component",
         description:"Estrutura de menu com animações feita em react  e styled components",

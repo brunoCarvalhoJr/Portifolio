@@ -73,10 +73,15 @@ const SubBox = styled.div`
                 height: 14rem;
             };
 
-            @media(max-height: 850px) {
+            @media(max-height: 852px) {
                 width: 12rem;
                 height: 18rem;
             };
+    
+            @media (max-height: 800px) {
+                width: 9rem;
+                height: 14rem;
+            }
         }
     };
 `

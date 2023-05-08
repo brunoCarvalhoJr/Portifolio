@@ -14,8 +14,13 @@ const Icons = styled.div`
     bottom: 0;
     left: 2rem;
     z-index: 3;
+
     &>*:not(:last-child) {
         margin: 0.5rem 0;
+
+        @media (max-height: 675px) {
+            margin: 0.2rem 0;
+        }
     }
 `;
 
@@ -23,11 +28,6 @@ const Line = styled(motion.span)`
     width: 2px;
     height: 8rem;
     background-color: ${(props) => props.color === "dark" ? DarkTheme.text : DarkTheme.body};
-    
-    
-    @media(max-width: 600px) {
-        height: 1rem;
-    };
 `;
 
 
@@ -64,7 +64,7 @@ const SocialIcons = (props) => {
         return matches;
       }
 
-    const isSmall = useMediaQuery("(min-width: 700px)");
+    const isSmall = useMediaQuery("(min-height: 801px)");
 
     return (
         <Icons>
@@ -112,7 +112,7 @@ const SocialIcons = (props) => {
                 animate={isSmall ? {
                     height: '8rem'
                 } : {
-                    height: '2rem'
+                    height: '1rem'
                 }}
                 transition={{
                     type: 'spring',  duration: 1, delay:2

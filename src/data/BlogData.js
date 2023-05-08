@@ -1,5 +1,13 @@
 export const Blogs = [
     {
+        id:6,
+        name:"Scrum em 2023, ágil? Vale a pena?",
+        tags:["scrum","agil","frameworkscrum","scrum2023","framework","scrum guid"],
+        date:"7 de maio de 2023",
+        imgSrc:"https://media.licdn.com/dms/image/D4D12AQHEST8Vo6R8jw/article-cover_image-shrink_423_752/0/1683428806344?e=1689206400&v=beta&t=HLkVXhjVZH4pQU07ok8r3wRI2xz7Mz4OzBbNmeyhUYs",
+        link:"https://www.linkedin.com/pulse/scrum-em-2023-%2525C3%2525A1gil-vale-pena-bruno-henrique-moreira-carvalho%3FtrackingId=hnO4evK5SZydCqzk0GA6Ww%253D%253D/?trackingId=hnO4evK5SZydCqzk0GA6Ww%3D%3D"
+    },
+    {
         id:5,
         name:"O que é ReactJS e por que é tão popular ? E ainda vale a pena utilizar em 2023 ?",
         tags:["react","reactjs","reactnative","reactjs2023","webdevelopment","webdev"],

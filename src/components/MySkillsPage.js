@@ -1,7 +1,7 @@
 import React from "react";
 import styled, { ThemeProvider } from 'styled-components'
 import { LightTheme } from './Themes';
-import { Design, Develope } from './SVGs';
+import { Design, Develope, Rocket} from './SVGs';
 import SocialIcons from "../subComponents/SocialIcons";
 import LogoComponent from "../subComponents/LogoComponenet";
 import PowerButton from "../subComponents/PowerButton";
@@ -38,6 +38,11 @@ const Main = styled.div`
     z-index: 1;
     line-height: 1.5;
     cursor: pointer;
+    
+    
+    @media (max-height: 915px) {
+        height: 80vh;
+    }
     
     @media (max-width: 1920px) {
         margin-top: 8rem;
@@ -85,6 +90,17 @@ const Title = styled.h2`
     justify-content: center;
     align-items: center;
     font-size: calc(1em  + 1vw);
+    
+    @media (max-height: 850px) {
+        font-size: calc(0.5rem + 0.5vw);
+        padding: 0.1rem 0;
+    }
+    
+    @media (max-height: 897px) {
+        font-size: calc(0.7rem + 0.7vw);
+        padding: 0.1rem 0;
+    }
+
 
     ${Main}:hover &{
         &>*{
@@ -99,9 +115,19 @@ const Title = styled.h2`
 
 const Description = styled.div`
     color: ${props => props.theme.text};
-    font-size: calc(0.6em + 1vw);
+    font-size: calc(0.6rem + 1vw);
     padding: 0.5rem 0;
     
+    @media (max-height: 850px) {
+        font-size: calc(0.3rem + 0.3vw);
+        padding: 0.2rem 0;
+    }
+    
+    @media (max-height: 897px) {
+        font-size: calc(0.65rem + 0.65vw);
+        padding: 0.1rem 0;
+    }
+
     ${Main}:hover &{
         color:${props => props.theme.body};
     }
@@ -113,6 +139,10 @@ const Description = styled.div`
 
     ul,p{
         margin-left: 2rem;
+        
+        @media (max-height: 850px) {
+            margin-left: 0.7rem;
+        }
     }
 `
 
@@ -159,18 +189,18 @@ const MySkillsPage = () => {
                 </Main>
                 <Main>
                     <Title>
-                        <Develope width={40} height={40} /> Scrum Master
+                        <Rocket width={40} height={40} /> Scrum Master
                     </Title>
                     <Description>
                         Preparado  para garantir que a equipe de desenvolvimento 
-                        siga as práticas ágeis do  Scrum.
+                        siga as práticas ágeis do  Scrum, certificado PSM pela Srum.Org.
                         Admirador e defensor da metodologia procuro sempre ajudar 
                         a equipe entender e adotar as práticas, valores e princípios 
                         do Scrum.
                     </Description>
                     <Description>
                         <strong>Habilidades</strong>
-                        <p>Lider, Comunicador, Solucionador, Facilitador, Insentivador e etc</p>
+                        <p>Certificação PSM, Lider, Comunicador, Solucionador, Facilitador e etc</p>
                     </Description>
                 </Main>
                 <Main>
