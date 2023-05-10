@@ -1,5 +1,13 @@
 export const Work = [
     {
+        id: 8,
+        name:"Cards animados com Framer-motion in ReactJs",
+        description:"Animações de cards com framer-motion",
+        tags:["framer-motion","transition","react"],
+        demo:"https://cards-animation-framer-motion.vercel.app/",
+        github:"https://github.com/brunoCarvalhoJr/Cards-animation-framer-motion/tree/main"
+    },
+    {
         id:7,
         name:"Carrossel de imagens em react e Styled-Component",
         description:"Carrossel de imagens em react e Styled-Component",
