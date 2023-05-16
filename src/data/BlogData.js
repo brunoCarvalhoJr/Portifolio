@@ -1,5 +1,13 @@
 export const Blogs = [
     {
+        id:7,
+        name:"FluentValidation Asp.Net Core",
+        tags:["FluentValidation","Asp.Net","ASPNETCore","Validacao","ValidaçãoDeCampos","#BibliotecasNET"],
+        date:"15 de maio de 2023",
+        imgSrc:"https://media.licdn.com/dms/image/D4D12AQFHZy7bicoNbw/article-cover_image-shrink_423_752/0/1683768656961?e=1689811200&v=beta&t=JaQ0YZhJp3qSjUmJKogNAw_A8vGp8OiNkj3KB6P69fk",
+        link:"https://www.linkedin.com/pulse/fluentvalidation-aspnet-core-bruno-henrique-moreira-carvalho%3FtrackingId=EvBC1igGR%252FWXjjfmwVoPnw%253D%253D/?trackingId=EvBC1igGR%2FWXjjfmwVoPnw%3D%3D"
+    },
+    {
         id:6,
         name:"Scrum em 2023, ágil? Vale a pena?",
         tags:["scrum","agil","frameworkscrum","scrum2023","framework","scrum guid"],

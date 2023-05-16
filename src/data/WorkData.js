@@ -1,5 +1,13 @@
 export const Work = [
     {
+        id: 9,
+        name:"Animação WhileTap e WhileHover com Framer-motion",
+        description:"Animações com framer-motion",
+        tags:["framer-motion","transition","react"],
+        demo:"https://whiletap-whilehover-animate-framer-motion.vercel.app/",
+        github:"https://github.com/brunoCarvalhoJr/whiletap-whilehover-animate-framer-motion"
+    },
+    {
         id: 8,
         name:"Cards animados com Framer-motion in ReactJs",
         description:"Animações de cards com framer-motion",
