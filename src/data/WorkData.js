@@ -1,5 +1,13 @@
 export const Work = [
     {
+        id: 10,
+        name:"Formulário de Login com transição Up/Down",
+        description:"Um formulário de login clean com um transição Up/Down de animação",
+        tags:["login-form","login","clean","transition","react"],
+        demo:"https://login-form-up-transition.vercel.app/?email=&pswd=",
+        github:"https://github.com/brunoCarvalhoJr/LoginFormUpTransition"
+    },
+    {
         id: 9,
         name:"Animação WhileTap e WhileHover com Framer-motion",
         description:"Animações com framer-motion",

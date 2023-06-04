@@ -1,5 +1,21 @@
 export const Blogs = [
     {
+        id:9,
+        name:"ASP.NET Core 6",
+        tags:["ASPNETCore6, dotnet6, desenvolvimentoweb, seguranca, autenticacao, OAuth2, tecnologia, inovacao, mercado"],
+        date:"29 de maio de 2023",
+        imgSrc:"https://media.licdn.com/dms/image/D4D12AQE7a4LzCUiqfg/article-cover_image-shrink_600_2000/0/1683769925363?e=1691625600&v=beta&t=P8OtMCNAC7S5ySSDXYzNWByKwYK4iV3wEBZrfE9V5Qw",
+        link:"https://www.linkedin.com/pulse/aspnet-core-6-bruno-henrique-moreira-carvalho/?trackingId=QFFoA38oSHWzC9J5290Jxw%3D%3D"
+    },
+    {
+        id:8,
+        name:"Componentes Funcionais react",
+        tags:["FunctionComponentes","React","Components"],
+        date:"22 de maio de 2023",
+        imgSrc:"https://media.licdn.com/dms/image/D4D12AQGUVePzQTH07g/article-cover_image-shrink_423_752/0/1683738294526?e=1691625600&v=beta&t=vnxYn5cqGES9-cABN1kzhJl7ybkSW9W3Siy56CWTV1o",
+        link:"https://www.linkedin.com/pulse/componentes-funcionais-react-bruno-henrique-moreira-carvalho/?trackingId=QFFoA38oSHWzC9J5290Jxw%3D%3D"
+    },
+    {
         id:7,
         name:"FluentValidation Asp.Net Core",
         tags:["FluentValidation","Asp.Net","ASPNETCore","Validacao","ValidaçãoDeCampos","#BibliotecasNET"],
