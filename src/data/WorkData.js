@@ -1,5 +1,13 @@
 export const Work = [
     {
+        id: 11,
+        name:"Card 360º effect",
+        description:"Card com efeito de transição 360º em React e StyledComponent",
+        tags:["card","card3d","card-flip","flip-effect","react"],
+        demo:"https://3-d-card-flip-effect-react-styled-component.vercel.app/",
+        github:"https://github.com/brunoCarvalhoJr/3D-card-flip-effect-React-Styled-Component"
+    },
+    {
         id: 10,
         name:"Formulário de Login com transição Up/Down",
         description:"Um formulário de login clean com um transição Up/Down de animação",
