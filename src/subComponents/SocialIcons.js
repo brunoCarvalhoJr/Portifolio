@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 import React, { useEffect, useState } from "react";
 import styled from "styled-components";
-import { Linkedin, Github, Instragram, WhatsApp } from "../components/SVGs";
+import { Linkedin, Github, Instragram, WhatsApp, Mail } from "../components/SVGs";
 import { DarkTheme } from "../components/Themes";
 import { NavLink } from "react-router-dom";
 
@@ -104,15 +104,24 @@ const SocialIcons = (props) => {
                     <Instragram height={25} width={25} fill={props.theme === "dark"  ? DarkTheme.text : DarkTheme.body } />
                 </NavLink>
             </motion.div>
+            <motion.div
+                initial={{scale:0 }}
+                animate={{ scale: [0.01, 1.2, 1] }}
+                transition={{ type: "spring", duration: 1, delay: 2.8}}
+            >
+                <NavLink target="_blank" to={"mailto:bruno.jr.ti@hotmail.com"}>
+                    <Mail height={25} width={25} fill={props.theme === "dark"  ? DarkTheme.text : DarkTheme.body } />
+                </NavLink>
+            </motion.div>
 
             <Line color={props.theme}
                 initial={{
                     height: 0
                 }}
                 animate={isSmall ? {
-                    height: '8rem'
+                    height: '4rem'
                 } : {
-                    height: '1rem'
+                    height: '0.2rem'
                 }}
                 transition={{
                     type: 'spring',  duration: 1, delay:2

@@ -25,7 +25,7 @@ const Container = styled.div`
     padding: 2rem;
 `
 
-const Contact = styled.a`
+const Trajetoria = styled(NavLink)`
     color: ${props => props.theme.text};
     position: absolute;
     top: 2rem;
@@ -216,7 +216,7 @@ const Main = () => {
                     </motion.span>
                 </Center>
 
-                <Contact target="_blank" href="mailto:bruno.jr.ti@hotmail.com" click={click}>
+                <Trajetoria click={click} to="/trajectory">
                     <motion.h2
                         initial={{
                             y:-200,
@@ -229,9 +229,9 @@ const Main = () => {
                         whileHover={{scale: 1.1}}
                         whileTap={{scale: 0.9}}
                     >
-                        Fale comigo...
+                        Trajetória
                     </motion.h2>
-                </Contact>
+                </Trajetoria>
                 <BLOG  click={+click} to="/blog">
                     <motion.h2
                         initial={{

@@ -61,12 +61,17 @@ const AnchorComponent = (props) => {
             let diff = Math.max(bodyHeight - (scrollPosition + windowSize) )
             let diffP = (diff * 100) / (bodyHeight - windowSize);
 
-            ref.current.style.transform = `translateY(${-diffP}%)`
+            if(ref.current != null)
+                ref.current.style.transform = `translateY(${-diffP}%)`
 
-            if(window.pageYOffset > 5)
-                hiddenRef.current.style.display = 'none'
-            else
-                hiddenRef.current.style.display = 'block'
+            if(window.pageYOffset > 5){
+                if(ref.current != null)
+                    hiddenRef.current.style.display = 'none'
+            }
+            else{
+                if(ref.current != null)
+                    hiddenRef.current.style.display = 'block'
+            }
         }
 
         window.addEventListener('scroll', handleScroll)
@@ -79,15 +84,15 @@ const AnchorComponent = (props) => {
     return (
         <Container>
         <PreDisplay ref={hiddenRef} className='hidden'>
-        <AnchorI fill='currentColor'/>
+        <AnchorI fill='#4F2F2E'/>
         </PreDisplay>
             <Slider ref={ref}>
                 {
                     [...Array(props.number)].map((x,id) => {
-                        return <LinkI key={id} width={25} height={25} fill='currentColor' className="chain" />
+                        return <LinkI key={id} width={25} height={25} fill='#4F2F2E' className="chain" />
                     })
                 }
-                <AnchorI fill='currentColor'/>
+                <AnchorI fill='#4F2F2E'/>
             </Slider>
         </Container>
     )

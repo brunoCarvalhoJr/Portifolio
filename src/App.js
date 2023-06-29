@@ -12,6 +12,7 @@ import WorkPage from "./components/WorkPage";
 import MySkillsPage from "./components/MySkillsPage";
 import SoundBar from "./subComponents/SoundBar";
 import TransitionEffect from "./components/TransitionEffect";
+import Trajectory from "./components/Trajectory";
 
 function App() {
   const location = useLocation();
@@ -52,6 +53,12 @@ function App() {
               <>
                 <TransitionEffect />
                 <MySkillsPage />
+              </>
+            } />
+            <Route path="/trajectory" element={
+              <>
+                <TransitionEffect />
+                <Trajectory />
               </>
             } />
             <Route path="*" element={
