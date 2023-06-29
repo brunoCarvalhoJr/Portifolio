@@ -1,5 +1,37 @@
 export const Blogs = [
     {
+        id:12,
+        name:"Clean code no ASPET Core",
+        tags:["cleancode, aspnet core, coding, developer, aspnetcore"],
+        date:"26 de junho de 2023",
+        imgSrc:"https://media.licdn.com/dms/image/D4D12AQEInjryXWZGKg/article-cover_image-shrink_423_752/0/1683773613211?e=1693440000&v=beta&t=-_aappKpuBcxj_m9I-7SkJHjewTpGNCMZHHIObhydzE",
+        link:"https://www.linkedin.com/pulse/clean-code-aspet-core-bruno-henrique-moreira-carvalho/?trackingId=%2B%2BorPDt0Temq3oPbjer%2Bdw%3D%3D"
+    },
+    {
+        id:11,
+        name:"Como criar ação ReactJs com create-react-app",
+        tags:["create-react-app, ReactJs, ferramentaweb"],
+        date:"19 de junho de 2023",
+        imgSrc:"https://media.licdn.com/dms/image/D4D12AQG8jlbSFKwvnA/article-cover_image-shrink_423_752/0/1683771998105?e=1693440000&v=beta&t=b2ahjWAKRC5XsNGU9M0O4J5Y3kR-FL8L3EMlHoMClpQ",
+        link:"https://www.linkedin.com/pulse/como-criar-a%25C3%25A7%25C3%25A3o-reactjs-com-create-react-app-bruno/?trackingId=%2B%2BorPDt0Temq3oPbjer%2Bdw%3D%3D"
+    },
+    {
+        id:10,
+        name:"Gerenciamento de Estado com React Hooks",
+        tags:["ReactJs, Hooks, react-hooks, WebDeveloper, state"],
+        date:"12 de junho de 2023",
+        imgSrc:"https://media.licdn.com/dms/image/D4D12AQFqMCJ1bo1cjg/article-cover_image-shrink_423_752/0/1683771307292?e=1693440000&v=beta&t=-Udbky-QCN3iWxIO49GtdpWR3VdXFYg6JpaeomoFHJ0",
+        link:"https://www.linkedin.com/pulse/gerenciamento-de-estado-com-react-hooks-henrique-moreira-carvalho/?trackingId=%2B%2BorPDt0Temq3oPbjer%2Bdw%3D%3D"
+    },
+    {
+        id:10,
+        name:"Class Components",
+        tags:["ReactJs, ClassComponents, DesenvolvimentoWeb, WebDeveloper, Components"],
+        date:"5 de junho de 2023",
+        imgSrc:"https://media.licdn.com/dms/image/D4D12AQFxWUAK7MNslw/article-cover_image-shrink_423_752/0/1683736083050?e=1693440000&v=beta&t=3u7N55AIaxaYDf7vyzFOTJ_yk0ZfLvAmO7N_Azp6MXA",
+        link:"https://www.linkedin.com/pulse/componentes-de-classe-em-reactjs-bruno-henrique-moreira-carvalho/?trackingId=%2B%2BorPDt0Temq3oPbjer%2Bdw%3D%3D"
+    },
+    {
         id:9,
         name:"ASP.NET Core 6",
         tags:["ASPNETCore6, dotnet6, desenvolvimentoweb, seguranca, autenticacao, OAuth2, tecnologia, inovacao, mercado"],
