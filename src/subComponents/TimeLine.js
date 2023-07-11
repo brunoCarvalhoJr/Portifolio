@@ -227,7 +227,7 @@ const Card = (props) => {
                     <div className="title">Startup, Novos Horizontes</div>
                     <div className="descr">
                       No mesmo ano fui convidado a montar uma equipe e iniciar em uma Startup, 
-                      uma fabrica de software para o Agronegócio brasileiro, trabalhando com grandes cooperativas, 
+                      uma fábrica de software para o Agronegócio brasileiro, trabalhando com grandes cooperativas, 
                       foi aqui meu primeiro trabalho com ReactJs, o framework que hoje mais domino.
                     </div>
                 </li>
@@ -235,9 +235,9 @@ const Card = (props) => {
                     <div className="date">2021</div>
                     <div className="title">Dev Full Stack Senior</div>
                     <div className="descr">
-                      Iniciei meus trabalho na SMARAPD, trabalhando no setor de P&D, iniciei minha trajetória como Dev 
-                      Full Stack Senior, trabalhando com sistemas dedicados a melhorar o dia a dia de servidores 
-                      publicos em todo território nacional.
+                      Iniciei meus trabalhos na SMARAPD, trabalhando no setor de P&D, uma nova trajetória como Dev 
+                      Full Stack Sênior, trabalhando com sistemas dedicados a melhorar o dia a dia de servidores 
+                      públicos em todo território nacional.
                     </div>
                 </li>
                 <li>

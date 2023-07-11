@@ -163,10 +163,9 @@ const MySkillsPage = () => {
                     </Title>
                     <Description>
                         Desenvolvedor frontend especializado em React JS, 
-                        habilidades avançadas varias tecnologias. 
-                        Crio interfaces sempre me atualizando com as últimas 
-                        novidades para aprimorar minhas habilidades e desenvolver 
-                        projetos de alta qualidade.
+                        habilidades avançadas em várias tecnologias. 
+                        Crio interfaces sempre me atualizando com as últimas novidades 
+                        para aprimorar minhas habilidades e desenvolver projetos de alta qualidade.
                     </Description>
                     <Description>
                         <strong>Habilidades</strong>
@@ -178,9 +177,9 @@ const MySkillsPage = () => {
                         <Develope width={40} height={40} /> Desenvolvedor Backend
                     </Title>
                     <Description>
-                        Desenvolvedor Backend especializado em .Net, conhecimento em 
-                        banco de dados e varias  outras tecnologias 
-                        sou capaz de criar sistemas robustos e escaláveis.
+                        Desenvolvedor Backend especializado em .Net, 
+                        conhecimento em banco de dados e várias outras 
+                        tecnologias, sou capaz de criar sistemas robustos e escaláveis.
                     </Description>
                     <Description>
                         <strong>Habilidades</strong>
@@ -192,11 +191,9 @@ const MySkillsPage = () => {
                         <Rocket width={40} height={40} /> Scrum Master
                     </Title>
                     <Description>
-                        Preparado  para garantir que a equipe de desenvolvimento 
-                        siga as práticas ágeis do  Scrum, certificado PSM pela Srum.Org.
-                        Admirador e defensor da metodologia procuro sempre ajudar 
-                        a equipe entender e adotar as práticas, valores e princípios 
-                        do Scrum.
+                        Preparado para garantir que a equipe de desenvolvimento siga as práticas ágeis do Scrum, 
+                        certificado PSM pela Srum.Org. Admirador e defensor da metodologia procuro sempre ajudar 
+                        a equipe entender e adotar as práticas, valores e princípios do Scrum.
                     </Description>
                     <Description>
                         <strong>Habilidades</strong>
@@ -208,10 +205,11 @@ const MySkillsPage = () => {
                         <Design width={40} height={40} /> Designer
                     </Title>
                     <Description>
-                        Adoro  criar designers explicativos, limpos e minimalistas.
-                        Buscando sempre Compreender a cada  dia o Usuário, com um 
-                        pensamento crítico procuro atender e criar soluções de design 
-                        que atendam a essas necessidades.
+                        Adoro criar designers explicativos,
+                        limpos e minimalistas. 
+                        Buscando sempre Compreender a cada dia o usuário, 
+                        com um pensamento crítico procuro atender e criar soluções 
+                        de design que atendam a essas necessidades.
                     </Description>
                     <Description>
                         <strong>Habilidades</strong>
