@@ -108,8 +108,8 @@ const CertificatesPage = () => {
                 }}
             >
                 <Container>
-                    <LogoComponent theme='dark'/>
-                    <SocialIcons theme='dark'/>
+                    <LogoComponent theme='ligth'/>
+                    <SocialIcons theme='ligth'/>
                     <PowerButton />
                     <Center>
                         <Grid>
