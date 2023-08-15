@@ -20,7 +20,7 @@ import CertificadoCursoVueJsAluraFrente from "../assets/Images/certificades/Cert
 import CertificadoCursoVueJsAluraVerso from "../assets/Images/certificades/Certificado VUE.JS Alura ( verso ).jpg"
 import CertificadoCursoWebPackAluraFrente from "../assets/Images/certificades/Certificado WEBPACK Alura ( frente ).jpg"
 import CertificadoCursoWebPackAluraVerso from "../assets/Images/certificades/Certificado WEBPACK Alura ( verso ).jpg"
-import CertificadoFullStackReactRouter6NET6EFCoreUdemy  from "../assets/Images/certificades/Certificado Full Stack React Router 6, .NET6 + EF Core udemy .jpg"
+import CertificadoFullStackReactRouter6NET6EFCoreUdemy  from "../assets/Images/certificades/Certificado Full Stack React NET6 udemy.jpg"
 import CertificadoGraduacao from "../assets/Images/certificades/CERTIFICADO GRADUAÇÃO 1.jpeg"
 import CertificadoPSM1 from "../assets/Images/certificades/Certificado PSM1 Scrum.Org.png"
 import CertificadoReactJsRestApiUdemy from "../assets/Images/certificades/Certificado React Js consumindo Rest Api RestFul em ASP.NET Core .NET6 umdey.jpg"
@@ -64,7 +64,7 @@ export const Certificades = [
         date:"28 de Agosto de 2015",
         workload: 100,
         school: "Caelum",
-        imgSrcFront:FormacaoJavaCaelum,
+        imgSrcFront: FormacaoJavaCaelum,
         imgSrcBack: undefined
     },
     {
@@ -94,7 +94,7 @@ export const Certificades = [
         date:"12 de Agosto de 2023",
         workload: 16.5,
         school: "Udemy",
-        imgSrcFront:CertificadoFullStackReactRouter6NET6EFCoreUdemy,
+        imgSrcFront: CertificadoFullStackReactRouter6NET6EFCoreUdemy,
         imgSrcBack: undefined
     },
     {
