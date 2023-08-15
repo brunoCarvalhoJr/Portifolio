@@ -40,7 +40,6 @@ export const Certificades = [
     {
         id:1,
         name:"Bacharel em Ciências da Computação",
-        tags:["CienciasDaComputacao, Computacao"],
         date:"08 de Janeiro de 2014",
         workload: undefined,
         school: "Universidade Nove de Julho",
@@ -50,7 +49,6 @@ export const Certificades = [
     {
         id:2,
         name:"Certificado PSM1",
-        tags:["PSM1, Scrum, Scrum.Org"],
         date:"06 de Maio de 2023",
         workload: undefined,
         school: "Scrum.Org",
@@ -60,7 +58,6 @@ export const Certificades = [
     {
         id:3,
         name:"Formação Java Caelum",
-        tags:["Java, OrientacaoObjetos"],
         date:"28 de Agosto de 2015",
         workload: 100,
         school: "Caelum",
@@ -70,7 +67,6 @@ export const Certificades = [
     {
         id:4,
         name:"Java Desenvolvimento Web",
-        tags:["Java, DesenvolvimentoWeb, Web"],
         date:"21 de Agosto de 2015",
         workload: 40,
         school: "Caelum",
@@ -80,7 +76,6 @@ export const Certificades = [
     {
         id:5,
         name:"Java Orientação a Objetos",
-        tags:["Java, OrientacaoObjetos"],
         date:"07 de Agosto de 2015",
         workload: 40,
         school: "Caelum",
@@ -90,7 +85,6 @@ export const Certificades = [
     {
         id:6,
         name:"Certificado Full Stack ReactJs + React Router 6 + .NET6 + EF Core",
-        tags:["React, ReactRouter, .Net, EfCore"],
         date:"12 de Agosto de 2023",
         workload: 16.5,
         school: "Udemy",
@@ -100,7 +94,6 @@ export const Certificades = [
     {
         id:7,
         name:"Certificado ReactJs + Rest API ASP.NET Core",
-        tags:["AspNet, ReactJs, RestApi"],
         date:"02 de Maio de 2022",
         workload: 5,
         school: "Udemy",
@@ -110,7 +103,6 @@ export const Certificades = [
     {
         id:8,
         name:"Scrum - Scrum Fundation Professional Certificate",
-        tags:["Scrum, ScrumFundation"],
         date:"06 de Abril de 2019",
         workload: undefined,
         school: "CertProf",
@@ -120,7 +112,6 @@ export const Certificades = [
     {
         id:9,
         name:"Scrum - Scrum Fundation Professional Certificate",
-        tags:["Scrum, ScrumFundation"],
         date:"25 de Julho de 2023",
         workload: undefined,
         school: "CertProf",
@@ -130,7 +121,6 @@ export const Certificades = [
     {
         id:10,
         name:"Scrum - Professional Scrum Master - Scrum.ORG",
-        tags:["Scrum, ScrumFundation"],
         date:"25 de Julho de 2023",
         workload: 16,
         school: "Adapt Ideas",
@@ -139,8 +129,7 @@ export const Certificades = [
     },
     {
         id:11,
-        name:"Certificado Javascript 3",
-        tags:["javascript3"],
+        name:"Certificado Javascript Programando para Linguagem Web",
         date:"06 de Outubro de 2017",
         workload: 20,
         school: "Alura",
@@ -148,19 +137,8 @@ export const Certificades = [
         imgSrcBack:CertificadoCursoJavascript3AluraVerso
     },
     {
-        id:12,
-        name:"Certificado VUE.JS 2",
-        tags:["VUE, VueFramework, VueJs, alura"],
-        date:"07 de Dezembro de 2017",
-        workload: 16,
-        school: "Alura",
-        imgSrcFront:CertificadoCursoVueJs2AluraFrente,
-        imgSrcBack:CertificadoCursoVueJs2AluraVerso
-    },
-    {
         id:13,
-        name:"Certificado VUE.JS",
-        tags:["VUE, VueFramework, VueJs, alura"],
+        name:"Certificado VUE.JS  Contruindo Single Page Aplications Part 1",
         date:"07 de Dezembro de 2017",
         workload: 16,
         school: "Alura",
@@ -168,9 +146,17 @@ export const Certificades = [
         imgSrcBack:CertificadoCursoVueJsAluraVerso
     },
     {
+        id:12,
+        name:"Certificado VUE.JS Contruindo Single Page Aplications",
+        date:"07 de Dezembro de 2017",
+        workload: 16,
+        school: "Alura",
+        imgSrcFront:CertificadoCursoVueJs2AluraFrente,
+        imgSrcBack:CertificadoCursoVueJs2AluraVerso
+    },
+    {
         id:14,
         name:"Certificado Java e Java.UTIL",
-        tags:["java.UTIL, Java"],
         date:"24 de Maio de 2018",
         workload: 12,
         school: "Alura",
@@ -180,7 +166,6 @@ export const Certificades = [
     {
         id:15,
         name:"Certificado Métodos Ágeis",
-        tags:["metodosAgeis"],
         date:"05 de Abril de 2019",
         workload: 12,
         school: "Alura",
@@ -190,7 +175,6 @@ export const Certificades = [
     {
         id:16,
         name:"Certificado Scrum",
-        tags:["Scrum, Agil, agility, alura"],
         date:"09 de Abril de 2019",
         workload: 10,
         school: "Alura",
@@ -200,7 +184,6 @@ export const Certificades = [
     {
         id:17,
         name:"Certificado Java e Jdbc",
-        tags:["javaJdbc, Java, JDBC"],
         date:"11 de Abril de 2019",
         workload: 8,
         school: "Alura",
@@ -210,7 +193,6 @@ export const Certificades = [
     {
         id:18,
         name:"Certificado Java e JPA",
-        tags:["javaJpa, Java, JPA"],
         date:"29 de Abril de 2019",
         workload: 17,
         school: "Alura",
@@ -219,8 +201,7 @@ export const Certificades = [
     },
     {
         id:19,
-        name:"Certificado Javascript 2",
-        tags:["javascript2"],
+        name:"Certificado Javascript Browser e Design Patterns",
         date:"21 de Setembro de 2019",
         workload: 12,
         school: "Alura",
@@ -229,8 +210,7 @@ export const Certificades = [
     },
     {
         id:20,
-        name:"Certificado Javascript",
-        tags:["javascript"],
+        name:"Certificado Javascript MVC, Prox e Factory Pattern",
         date:"22 de Setembro de 2019",
         workload: 12,
         school: "Alura",
@@ -240,7 +220,6 @@ export const Certificades = [
     {
         id:21,
         name:"Certificado WEBPACK",
-        tags:["WebPack, modulos"],
         date:"23 de Setembro de 2019",
         workload: 8,
         school: "Alura",
@@ -250,7 +229,6 @@ export const Certificades = [
     {
         id:22,
         name:"Microsoft Access EazyComp",
-        tags:["Microsoft, Access, EazyComp"],
         date:"09 de Agosto de 2004",
         workload: 20,
         school: "EazyComp",
@@ -260,7 +238,6 @@ export const Certificades = [
     {
         id:23,
         name:"Microsoft Excel EazyComp",
-        tags:["Microsoft, Excel, EazyComp"],
         date:"28 de Junho de 2004",
         workload: 20,
         school: "EazyComp",
@@ -270,7 +247,6 @@ export const Certificades = [
     {
         id:24,
         name:"Microsoft Internet - Outlook Express EazyComp",
-        tags:["Microsoft, Internet, Express, EazyComp"],
         date:"27 de Agosto de 2004",
         workload: 20,
         school: "EazyComp",
@@ -280,7 +256,6 @@ export const Certificades = [
     {
         id:25,
         name:"Microsoft Internet - Outlook Express EazyComp",
-        tags:["Microsoft, Internet, Express, EazyComp"],
         date:"27 de Agosto de 2004",
         workload: 20,
         school: "EazyComp",
@@ -290,7 +265,6 @@ export const Certificades = [
     {
         id:26,
         name:"Curso de Dj Profissional DjBan",
-        tags:["Dj"],
         date:"10 de Julho de 2009",
         workload: 25,
         school: "DjBan",
@@ -300,7 +274,6 @@ export const Certificades = [
     {
         id:27,
         name:"T&D e Marketing Pessoal",
-        tags:["T&D, MarketingPessoal"],
         date:"17 de Novembro de 2009",
         workload: 5,
         school: "BeaBustos",

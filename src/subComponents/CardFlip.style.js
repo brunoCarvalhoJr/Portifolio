@@ -3,7 +3,6 @@ import styled from "styled-components";
 
 export const BoxFlip = styled.div`
     box-shadow: 0 0 10px rgba(128, 128, 128, 0.5);
-    padding: 1em;
     width: 100%;
     height: 100%;
     transform-style: preserve-3d;
@@ -11,7 +10,7 @@ export const BoxFlip = styled.div`
     position: relative;
 
     &:hover {
-        transform: rotateY(180deg);
+        transform: ${(props) => props.flip ? 'rotateY(180deg)': ''} ;
     }
 
     &::before,
@@ -25,7 +24,7 @@ export const BoxFlip = styled.div`
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
-        transform: rotateY(180deg) translateZ(1px);
+        transform: ${(props) => props.flip ? 'rotateY(180deg) translateZ(1px)': ''}
     }
 `
 

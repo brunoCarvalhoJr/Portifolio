@@ -1,20 +1,15 @@
-import React, { useEffect, useState } from "react";
-import styled, { keyframes, ThemeProvider } from 'styled-components'
-import {DarkTheme} from './Themes';
+import React, { useState } from "react";
+import styled, { ThemeProvider } from 'styled-components'
+import {DarkTheme, LightTheme} from './Themes';
 import LogoComponent from '../subComponents/LogoComponenet';
 import SocialIcons from '../subComponents/SocialIcons';
 import PowerButton from '../subComponents/PowerButton';
-import ParticleComponent from '../subComponents/ParticleComponent';
 import BigTitle from '../subComponents/BigTitle'
-import brunoimg from '../assets/Images/Bruno.Carvalho_man_tall_short_beard_programmer_wearing_glasses__07d07db4-b285-4feb-94d6-187d5530f5cc.png'
-import { NavLink } from "react-router-dom";
 import { Certificades } from '../data/CertificadesData';
 import CertificadeComponente from "./CertificadeComponent";
 import { motion } from 'framer-motion'
-import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import CardFlip from "../subComponents/CardFlip";
-import img from "../assets/Images/patrick-tomasso-Oaqk7qqNh_c-unsplash.jpg"
 
 const MainContainer = styled(motion.div)`
     background-color: ${props => props.theme.body};
@@ -39,34 +34,6 @@ const Container = styled.div`
     @media(max-width: 600px) {
         width: 100%;
         height: 100%;
-    };
-`
-
-const Box = styled.div`
-    background-color: ${props => props.theme.body};
-    width: 100vw;
-    height:  100vh;
-    position: relative;
-    overflow: hidden;
-`
-
-const BottomBar = styled.div`
-    position: absolute;
-    bottom: 1rem;
-    left: 0;
-    right: 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-`
-
-const ABOUT = styled(NavLink)`
-    color: ${props => props.click ? props.theme.body : props.theme.text};
-    text-decoration: none;
-    z-index:1;
-    
-    @media(max-width: 600px) {
-        color: ${props => props.theme.text};
     };
 `
 
@@ -102,12 +69,26 @@ const container = {
   
 }
 
+const Date = styled.span`
+  padding: 0.5rem 0;
+  overflow: hidden;
+  @media (max-width: 600px) {
+      font-size: 10px;
+  };
+`;
+
+const ModalCustom = styled(Modal)`
+    .modal-content{
+        color: #2E0909;
+        background-color: #FCF6F4;
+    }
+`
+
 const CertificatesPage = () => {
     const [show, setShow] = useState(false);
     const [selectedCertificade, setSelectedCertificade] = useState({});
 
     const handleModal = (certificade) => {
-        console.log('certificade: ', certificade);
         if(certificade)
             setSelectedCertificade(certificade)
         else
@@ -117,50 +98,82 @@ const CertificatesPage = () => {
 
     return (
         <>
-        <ThemeProvider theme={DarkTheme}>
-        <MainContainer
-        variants={container}
-        initial='hidden'
-        animate='show'
-        exit={{
-            opacity:0, transition:{duration: 0.5}
-        }}
-        >
-            <Container>
-                <LogoComponent theme='dark'/>
-                <SocialIcons theme='dark'/>
-                <PowerButton />
-                <Center>
-                    <Grid>
-                        {
-                            Certificades.map(certificade => {
-                                return <CertificadeComponente key={certificade.id} certificade={certificade} handleModal={handleModal} setSelectedCertificade={setSelectedCertificade} />
-                            })
-                        }
-                    </Grid>
-                </Center>
+        <ThemeProvider theme={LightTheme}>
+            <MainContainer
+                variants={container}
+                initial='hidden'
+                animate='show'
+                exit={{
+                    opacity:0, transition:{duration: 0.5}
+                }}
+            >
+                <Container>
+                    <LogoComponent theme='dark'/>
+                    <SocialIcons theme='dark'/>
+                    <PowerButton />
+                    <Center>
+                        <Grid>
+                            {
+                                Certificades.map(certificade => {
+                                    return (
+                                        <CertificadeComponente 
+                                            key={certificade.id} 
+                                            certificade={certificade} 
+                                            handleModal={handleModal} 
+                                        />
+                                    )
+                                })
+                            }
+                        </Grid>
+                    </Center>
 
-                <BigTitle text="CERTIFICADOS" top="5%" left="5%" />
-            </Container>
-        </MainContainer>
-        <Modal 
-            centered
-            size="lg"
-            show={show} 
-            aria-labelledby="contained-modal-title-vcenter"
-            onHide={handleModal}
-        >
-            <Modal.Header closeButton>
-            <Modal.Title>
-                Modal heading
-            </Modal.Title>
-            </Modal.Header>
-            <Modal.Body>
-                <CardFlip
-                    selectedCertificade={selectedCertificade}
-                />
-            </Modal.Body>
-        </Modal>
+                    <BigTitle text="CERTIFICADOS" top="5%" left="5%" />
+                </Container>
+            </MainContainer>
+            <ModalCustom 
+                centered
+                size="lg"
+                show={show} 
+                aria-labelledby="contained-modal-title-vcenter "
+                onHide={handleModal}
+            >
+                <Modal.Header closeButton>
+                <Modal.Title>
+                    <b className="me-2">
+                        {selectedCertificade.name}
+                    </b>
+                </Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                    <CardFlip
+                        selectedCertificade={selectedCertificade}
+                    />
+                </Modal.Body>
+                <Modal.Footer as={'div'} className="d-inline-flex  justify-content-between">
+                    <div>
+                        {
+                        selectedCertificade.school && 
+                            <>
+                                <b className="me-2">Instituição:</b><Date>{selectedCertificade.school}</Date>
+                            </>
+                        }
+                    </div>
+                    <div>
+                        {
+                        selectedCertificade.date && 
+                            <>
+                                <b className="me-2">Data Conclusão:</b><Date>{selectedCertificade.date}</Date>
+                            </>
+                        }
+                    </div>
+                </Modal.Footer>
+                {
+                    selectedCertificade.workload && 
+                    <Modal.Footer as={'div'} className="d-inline-flex  justify-content-start">
+                        <b className="me-2">Carga Horária:</b><Date>{selectedCertificade.workload}</Date> hrs
+                    </Modal.Footer>
+                }
+            </ModalCustom>
         </ThemeProvider>
     </>
 

@@ -1,11 +1,8 @@
 import { 
-    BoxFlip, Content, Front, Back, 
-    Heading, Paragraph 
+    BoxFlip, Content, Front, Back
 } from "./CardFlip.style";
-import { motion } from "framer-motion";
 import React from "react";
 import styled from "styled-components";
-
 
 const Image = styled.img`
   background-image: ${(props) => `url(${props.img})`};
@@ -19,7 +16,7 @@ const Image = styled.img`
 const CardFlip = (props) => {
     let {imgSrcFront, imgSrcBack} = props.selectedCertificade
     return (
-        <BoxFlip>
+        <BoxFlip flip={imgSrcBack !== undefined}>
             <Content>
                 <Front>
                     <Image src={imgSrcFront} />
