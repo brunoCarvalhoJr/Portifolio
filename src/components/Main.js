@@ -98,6 +98,7 @@ const CERTIFICADES = styled(NavLink)`
     color: ${props => props.click ? props.theme.body : props.theme.text};
     text-decoration: none;
     z-index:1;
+    margin-right: ${props => props.click ? '10rem' : ''};
     
     @media(max-width: 600px) {
         color: ${props => props.theme.text};
@@ -294,7 +295,7 @@ const Main = () => {
                             Sobre
                         </motion.h2>
                     </ABOUT>
-                    <CERTIFICADES to="/certificates">
+                    <CERTIFICADES click={+click} to="/certificates">
                         <motion.h2
                             initial={{
                                 y:200,

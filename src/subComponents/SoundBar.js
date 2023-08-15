@@ -9,7 +9,7 @@ const Box = styled.div`
     position:fixed;
     left:8rem;
     top:2.7rem;
-    z-index:10;
+    z-index:100;
     &>*:nth-child(1){
         animation-delay: 0.2s;
     };
@@ -47,8 +47,8 @@ const Line = styled.span`
     border: 1px solid ${props => props.theme.body};
     animation:${play} 1s ease infinite;
     animation-play-state: ${props => props.click ? "running" : "paused"};
-    height: 1rem;
-    width: 2px;
+    height: 1.5rem;
+    width: 0.3rem;
     margin:0 0.1rem;
 `
 
