@@ -13,6 +13,7 @@ import MySkillsPage from "./components/MySkillsPage";
 import SoundBar from "./subComponents/SoundBar";
 import TransitionEffect from "./components/TransitionEffect";
 import Trajectory from "./components/Trajectory";
+import CertificatesPage from "./components/CertificatesPage";
 
 function App() {
   const location = useLocation();
@@ -65,6 +66,12 @@ function App() {
               <>
                 <TransitionEffect />
                 <Main />
+              </>
+            } />
+            <Route path="/certificates" element={
+              <>
+                <TransitionEffect />
+                <CertificatesPage />
               </>
             } />
           </Routes>

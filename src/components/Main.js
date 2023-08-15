@@ -39,6 +39,7 @@ const Trajetoria = styled(NavLink)`
         transition-delay: 1s;
     };
 `
+
 const BLOG = styled(NavLink)`
     color: ${props => props.theme.text};
     position: absolute;
@@ -55,6 +56,7 @@ const BLOG = styled(NavLink)`
         top: 42%;
     };
 `
+
 const WORK = styled(NavLink)`
     color: ${props => props.click ? props.theme.body : props.theme.text};
     position: absolute;
@@ -91,6 +93,17 @@ const ABOUT = styled(NavLink)`
         color: ${props => props.theme.text};
     };
 `
+
+const CERTIFICADES = styled(NavLink)`
+    color: ${props => props.click ? props.theme.body : props.theme.text};
+    text-decoration: none;
+    z-index:1;
+    
+    @media(max-width: 600px) {
+        color: ${props => props.theme.text};
+    };
+`
+
 const SKILLS = styled(NavLink)`
     color: ${props => props.theme.text};
     text-decoration: none;
@@ -113,7 +126,7 @@ const rotate = keyframes`
 const Center = styled.button`
     position: absolute;
     top: ${props => props.click ? '85%' :'50%'  };
-    left: ${props => props.click ? '92%' :'50%'  };
+    left: ${props => props.click ? '92%' :'48.5%'  };
     transform: translate(-50%,-50%);
     border: none;
     outline: none;
@@ -281,6 +294,22 @@ const Main = () => {
                             Sobre
                         </motion.h2>
                     </ABOUT>
+                    <CERTIFICADES to="/certificates">
+                        <motion.h2
+                            initial={{
+                                y:200,
+                                transition: {type:'spring', duration: 1.5, delay: 2}     
+                            }}
+                            animate={{
+                                y:0,
+                                transition: {type:'spring', duration: 1.5, delay: 2}     
+                            }}
+                            whileHover={{scale: 1.1}}
+                            whileTap={{scale: 0.9}}
+                        >
+                            Certificados
+                        </motion.h2>
+                    </CERTIFICADES>
                     <SKILLS to="/skills">
                         <motion.h2
                             initial={{

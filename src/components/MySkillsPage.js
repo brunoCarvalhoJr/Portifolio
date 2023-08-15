@@ -223,7 +223,6 @@ const MySkillsPage = () => {
                         </ul>
                     </Description>
                 </Main>
-                
             </Box>
         </ThemeProvider>
     )
