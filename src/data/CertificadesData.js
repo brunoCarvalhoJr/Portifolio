@@ -262,7 +262,7 @@ export const Certificades = [
         imgSrcFront:MicrosoftInternetOutllokEazycomp,
         imgSrcBack: undefined
     },
-    {
+    /*{
         id:26,
         name:"Curso de Dj Profissional DjBan",
         date:"10 de Julho de 2009",
@@ -270,7 +270,7 @@ export const Certificades = [
         school: "DjBan",
         imgSrcFront:CursoDeDj,
         imgSrcBack: undefined
-    },
+    },*/
     {
         id:27,
         name:"T&D e Marketing Pessoal",
