@@ -258,7 +258,7 @@ const Card = (props) => {
                     </div>
                 </li>
             </Timeline>
-            <ThreeDots height={100} width={100} style={{justifySelf: 'center', color: '#4F2F2E'}}/>
+            <ThreeDots height={100} width={100} style={{justifySelf: 'center', color: '#4F2F2E', marginLeft: '2rem'}}/>
         </Container>
     )
 }

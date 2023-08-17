@@ -7,7 +7,7 @@ import { Github } from '../components/SVGs';
 
 
 const Box = styled(motion.li)`
-    width: 16rem;
+    width: min-content;
     height: 40vh;
     background-color: ${props => props.theme.text};
     color:${props => props.theme.body};

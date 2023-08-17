@@ -36,7 +36,7 @@ export const Blogs = [
         name:"ASP.NET Core 6",
         tags:["ASPNETCore6, dotnet6, desenvolvimentoweb, seguranca, autenticacao, OAuth2, tecnologia, inovacao, mercado"],
         date:"29 de maio de 2023",
-        imgSrc:"https://media.licdn.com/dms/image/D4D12AQE7a4LzCUiqfg/article-cover_image-shrink_600_2000/0/1683769925363?e=1691625600&v=beta&t=P8OtMCNAC7S5ySSDXYzNWByKwYK4iV3wEBZrfE9V5Qw",
+        imgSrc:"https://dkrn4sk0rn31v.cloudfront.net/uploads/2017/07/aplicacoes-self-contained-com-o-net-core.png",
         link:"https://www.linkedin.com/pulse/aspnet-core-6-bruno-henrique-moreira-carvalho/?trackingId=QFFoA38oSHWzC9J5290Jxw%3D%3D"
     },
     {
@@ -44,7 +44,7 @@ export const Blogs = [
         name:"Componentes Funcionais react",
         tags:["FunctionComponentes","React","Components"],
         date:"22 de maio de 2023",
-        imgSrc:"https://media.licdn.com/dms/image/D4D12AQGUVePzQTH07g/article-cover_image-shrink_423_752/0/1683738294526?e=1691625600&v=beta&t=vnxYn5cqGES9-cABN1kzhJl7ybkSW9W3Siy56CWTV1o",
+        imgSrc:"https://media.licdn.com/dms/image/D4D12AQGUVePzQTH07g/article-cover_image-shrink_423_752/0/1683738294526?e=1697673600&v=beta&t=4DPfx-XYdAm9mkG_08ANlyKD527zKE35CJ967SXdHKs",
         link:"https://www.linkedin.com/pulse/componentes-funcionais-react-bruno-henrique-moreira-carvalho/?trackingId=QFFoA38oSHWzC9J5290Jxw%3D%3D"
     },
     {
@@ -52,7 +52,7 @@ export const Blogs = [
         name:"FluentValidation Asp.Net Core",
         tags:["FluentValidation","Asp.Net","ASPNETCore","Validacao","ValidaçãoDeCampos","#BibliotecasNET"],
         date:"15 de maio de 2023",
-        imgSrc:"https://media.licdn.com/dms/image/D4D12AQFHZy7bicoNbw/article-cover_image-shrink_423_752/0/1683768656961?e=1689811200&v=beta&t=JaQ0YZhJp3qSjUmJKogNAw_A8vGp8OiNkj3KB6P69fk",
+        imgSrc:"https://media.licdn.com/dms/image/D4D12AQFHZy7bicoNbw/article-cover_image-shrink_423_752/0/1683768656961?e=1697673600&v=beta&t=mT4mSlQTU8EAziFd4tGqm6JnXdJNwSviR7Glsi5mvY4",
         link:"https://www.linkedin.com/pulse/fluentvalidation-aspnet-core-bruno-henrique-moreira-carvalho%3FtrackingId=EvBC1igGR%252FWXjjfmwVoPnw%253D%253D/?trackingId=EvBC1igGR%2FWXjjfmwVoPnw%3D%3D"
     },
     {
@@ -60,7 +60,7 @@ export const Blogs = [
         name:"Scrum em 2023, ágil? Vale a pena?",
         tags:["scrum","agil","frameworkscrum","scrum2023","framework","scrum guid"],
         date:"7 de maio de 2023",
-        imgSrc:"https://media.licdn.com/dms/image/D4D12AQHEST8Vo6R8jw/article-cover_image-shrink_423_752/0/1683428806344?e=1689206400&v=beta&t=HLkVXhjVZH4pQU07ok8r3wRI2xz7Mz4OzBbNmeyhUYs",
+        imgSrc:"https://media.licdn.com/dms/image/D4D12AQHEST8Vo6R8jw/article-cover_image-shrink_423_752/0/1683428806344?e=1697673600&v=beta&t=0oV12955TSrSTyacfVxM_CQfpsOO5hnk8dNDQ6TSrl8",
         link:"https://www.linkedin.com/pulse/scrum-em-2023-%2525C3%2525A1gil-vale-pena-bruno-henrique-moreira-carvalho%3FtrackingId=hnO4evK5SZydCqzk0GA6Ww%253D%253D/?trackingId=hnO4evK5SZydCqzk0GA6Ww%3D%3D"
     },
     {
@@ -68,7 +68,7 @@ export const Blogs = [
         name:"O que é ReactJS e por que é tão popular ? E ainda vale a pena utilizar em 2023 ?",
         tags:["react","reactjs","reactnative","reactjs2023","webdevelopment","webdev"],
         date:"1 de maio de 2023",
-        imgSrc:"https://media.licdn.com/dms/image/D4E12AQHOgnbfYsMEmQ/article-cover_image-shrink_600_2000/0/1682980539955?e=1688601600&v=beta&t=VzJiax9Jd9SAoWiUnZjJ9k8-Paqd86dbkRPYoWj-L4M",
+        imgSrc:"https://media.licdn.com/dms/image/D4E12AQHOgnbfYsMEmQ/article-cover_image-shrink_600_2000/0/1682980539955?e=1697673600&v=beta&t=0fKHESs7LBOqJNXY9_57bUKNdijnLZn49UNllzYx8Ho",
         link:"https://www.linkedin.com/pulse/o-que-%25C3%25A9-reactjs-e-por-t%25C3%25A3o-popular-ainda-vale-pena-em-bruno/?published=t"
     },
     {
@@ -76,7 +76,7 @@ export const Blogs = [
         name:"Ciclo de vida de um componente React com o Effect Hook",
         tags:["react","ciclodevida"],
         date:"24 de abril de 2023",
-        imgSrc:"https://media.licdn.com/dms/image/D4D12AQHGgFtOjDoSvg/article-cover_image-shrink_423_752/0/1682381454558?e=1687996800&v=beta&t=xvw3GwL5cX6m0nR5EmBKiq3gjNV7l1IJLPufZrcz-U4",
+        imgSrc:"https://media.licdn.com/dms/image/D4D12AQHGgFtOjDoSvg/article-cover_image-shrink_423_752/0/1682381454558?e=1697673600&v=beta&t=skjieD9sc_VKL3G5tG_bEXcHRvZ1y7vK8BsVBgPf4w4",
         link:"https://www.linkedin.com/pulse/ciclo-de-vida-um-componente-react-com-o-effect-hook-bruno/?trackingId=JY6gOMZYT2OAHWLcDPcw4w%3D%3D"
     },
     {
