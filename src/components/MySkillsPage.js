@@ -31,7 +31,7 @@ const Main = styled.div`
     background-color: ${props => props.theme.body};
     padding: 2rem;
     width:  30vw;
-    height: 60vh;
+    height: 70vh;
     margin-top: 4rem;
     margin-bottom: 3rem;
     margin-left: 12rem;
