@@ -1,11 +1,19 @@
 export const Work = [
     {
-        id: 11,
-        name:"Card 360º effect",
-        description:"Card com efeito de transição 360º em React e StyledComponent",
-        tags:["card","card3d","card-flip","flip-effect","react"],
-        demo:"https://3-d-card-flip-effect-react-styled-component.vercel.app/",
-        github:"https://github.com/brunoCarvalhoJr/3D-card-flip-effect-React-Styled-Component"
+        id: 13,
+        name:"API Login Com Google - GoogleApi + Reactjs + AspNet.CORE",
+        description:"Modelo de aplicação de login utilizando conta do google - reactjs e AspNet.CORE",
+        tags:["login","loginapi","reactjs","aspnetcore","aspnet"],
+        demo:"https://github.com/brunoCarvalhoJr/LoginGoogleApi",
+        github:"https://github.com/brunoCarvalhoJr/LoginGoogleApi"
+    },
+    {
+        id: 12,
+        name:"API Login - Reactjs + AspNet.CORE",
+        description:"Modelo de aplicação com login de usuário utilizando reactjs e AspNet.CORE",
+        tags:["login","loginapi","reactjs","aspnetcore","aspnet"],
+        demo:"https://github.com/brunoCarvalhoJr/LoginApi",
+        github:"https://github.com/brunoCarvalhoJr/LoginApi"
     },
     {
         id: 10,
