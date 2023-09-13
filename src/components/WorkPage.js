@@ -12,14 +12,15 @@ import Card from "../subComponents/Card";
 import YinYang from "../assets/Images/INGYANGINVERTER.png";
 import BigTitlte from "../subComponents/BigTitle";
 
+import ReactGA from 'react-ga';
 const Box = styled.div`
     background-color: ${(props) => props.theme.body};
     height: 400vh;
     position: relative;
     overflow: hidden;
-
     
-`;
+    
+    `;
 
 const Main = styled(motion.ul)`
     position: fixed;
@@ -29,7 +30,7 @@ const Main = styled(motion.ul)`
     display: flex;
     
     color: white;
-`;
+    `;
 const Rotate = styled.span`
     display: block;
     position: fixed;
@@ -45,7 +46,7 @@ const container = {
   hidden: { opacity: 0 },
   show: {
     opacity: 1,
-
+    
     transition: {
       staggerChildren: 0.5,
       duration: 0.5,
@@ -54,6 +55,9 @@ const container = {
 };
 
 const WorkPage = () => {
+  
+  ReactGA.pageview(window.location.pathname + window.location.search);
+  
   const ref = useRef(null);
   const yinyang = useRef(null);
 

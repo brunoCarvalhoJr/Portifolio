@@ -7,6 +7,7 @@ import PowerButton from '../subComponents/PowerButton';
 import ParticleComponent from '../subComponents/ParticleComponent';
 import BigTitle from '../subComponents/BigTitle'
 import brunoimg from '../assets/Images/Bruno.Carvalho_man_tall_short_beard_programmer_wearing_glasses__07d07db4-b285-4feb-94d6-187d5530f5cc.png'
+import ReactGA from 'react-ga';
 
 const Box = styled.div`
     background-color: ${props => props.theme.body};
@@ -83,6 +84,9 @@ const Main =  styled.div`
 `
 
 const AboutPage = () => {
+
+    ReactGA.pageview(window.location.pathname + window.location.search);
+
     return (
         <ThemeProvider theme={DarkTheme}>
             <Box>

@@ -9,6 +9,7 @@ import AnchorComponent from '../subComponents/Anchor'
 import BigTitle from "../subComponents/BigTitle"
 import { motion } from 'framer-motion'
 import LogoComponent from '../subComponents/LogoComponenet'
+import ReactGA from 'react-ga';
 
 
 const MainContainer = styled(motion.div)`
@@ -17,12 +18,12 @@ const MainContainer = styled(motion.div)`
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-
+    
     @media(max-width: 600px) {
         width: 100%;
         height: 100%;
     };
-`
+    `
 const Container = styled.div`
     background-color: ${props => `rgba(${props.theme.bodyRgba},0.8)`};
     width: 100%;
@@ -34,14 +35,14 @@ const Container = styled.div`
         width: 100%;
         height: 100%;
     };
-`
+    `
 
 const Center = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 10rem;
-`
+    `
 
 const Grid = styled.div`
     display: grid;
@@ -52,31 +53,32 @@ const Grid = styled.div`
     @media(max-width: 600px) {
         grid-template-columns: repeat(1, minmax(calc(10rem + 15vw), 1fr));
     };
-`
+    `
 
 const container = {
-
+    
     hidden: {opacity:0},
     show: {
-      opacity:1,
-  
-      transition:{
-        staggerChildren: 0.5,
-        duration: 0.5,
-      }
+        opacity:1,
+        
+        transition:{
+            staggerChildren: 0.5,
+            duration: 0.5,
+        }
     }
-  
+    
 }
 
 const BlogPage = () => {
+    ReactGA.pageview(window.location.pathname + window.location.search);
 
     const [numbers, setNumbers] = useState(0);
-
+    
     useEffect(() => {
         let num = (window.innerHeight - 70)/30;
         setNumbers(parseInt(num));
     }, [])
-
+    
     return (
         <MainContainer
         variants={container}

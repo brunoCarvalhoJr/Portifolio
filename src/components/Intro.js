@@ -3,45 +3,46 @@ import styled from "styled-components";
 import { motion }  from 'framer-motion';
 import Me from '../assets/Images/profile-img.png';
 
+import ReactGA from 'react-ga';
 const Box = styled(motion.div)`
 
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
 
-    width: 50vw;
-    height: 50vh;
-    display: flex;
+width: 50vw;
+height: 50vh;
+display: flex;
 
-    background: linear-gradient(
+background: linear-gradient(
         to right,
         ${props => props.theme.body} 50%,
         ${props => props.theme.text} 50%) bottom,
         linear-gradient(
-        to right,
-        ${props => props.theme.body} 50%,
+            to right,
+            ${props => props.theme.body} 50%,
         ${props => props.theme.text} 50%) top;
         
         background-repeat: no-repeat;
         background-size: 100% 2px;
         border-left: 2px solid ${props => props.theme.body};
         border-right: 2px solid ${props => props.theme.text};
-
-    z-index:1;
-
-    @media(max-width: 600px) {
-        display: flow-root;
+        
+        z-index:1;
+        
+        @media(max-width: 600px) {
+            display: flow-root;
         background: 
-            linear-gradient(
+        linear-gradient(
             to top,
             ${props => props.theme.body} 50%,
             ${props => props.theme.text} 50%) right;
-        border-top: 2px solid ${props => props.theme.body};
-        border-bottom: 2px solid ${props => props.theme.text};
-        -webkit-border-image: -webkit-gradient(linear, left top, left bottom, from(${props => props.theme.body}), to(${props => props.theme.text})) 0% 100% 0% 100% stretch;
-    };
-`
+            border-top: 2px solid ${props => props.theme.body};
+            border-bottom: 2px solid ${props => props.theme.text};
+            -webkit-border-image: -webkit-gradient(linear, left top, left bottom, from(${props => props.theme.body}), to(${props => props.theme.text})) 0% 100% 0% 100% stretch;
+        };
+        `
 const SubBox = styled.div`
     width: 50%;
     position: relative;
@@ -55,7 +56,7 @@ const SubBox = styled.div`
         width: 60%;
         height: auto;
     }
-
+    
     @media(max-width: 600px) {
         width: 100%;
         display: inline-flex;
@@ -67,12 +68,12 @@ const SubBox = styled.div`
             left: 56%;
             bottom: 0;
             transform: translate(-50%, 0%);
-
+            
             @media(max-height: 700px) {
                 width: 9rem;
                 height: 14rem;
             };
-
+            
             @media(max-height: 852px) {
                 width: 12rem;
                 height: 18rem;
@@ -90,11 +91,11 @@ const Text = styled.div`
     color: ${props  => props.theme.body};
     padding: 2rem;
     cursor: pointer;
-
+    
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-
+    
     &>*:last-child{
         color: ${props => `rgba(${props.theme.bodyRgba},0.6)`};
         font-size: calc(0.5rem + 1.5vw);
@@ -108,34 +109,34 @@ const Text = styled.div`
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-
+        
         font-size: calc(0.7em + 1.1vw);
-
+        
         &>*:last-child{
             font-size: calc(0.4rem + 1.1vw);
             font-weight:150;
         }
     };
-`
+    `
 
 const H1 = styled.h1`
 
-    @media(max-width: 600px) {
-        margin-bottom: 15px;
-        @media(max-height: 700px) {
+@media(max-width: 600px) {
+    margin-bottom: 15px;
+    @media(max-height: 700px) {
             margin-bottom: 5px;
         };
     };
-`
+    `
 
 const H4 = styled.h4`
 
-    @media(max-width: 600px) {
-        margin-bottom: 15px;
-        @media(max-height: 700px) {
-            margin-bottom: 5px;
-        };
+@media(max-width: 600px) {
+    margin-bottom: 15px;
+    @media(max-height: 700px) {
+        margin-bottom: 5px;
     };
+};
 `
 
 const H6 = styled.h6`
@@ -163,21 +164,22 @@ const hide = {
 
 const Intro = (props) => {
     
-
+    ReactGA.pageview(window.location.pathname + window.location.search);
+    
     const useMediaQuery = (query) => {
         const [matches, setMatches] = useState(false);
-      
+        
         useEffect(() => {
-          const media = window.matchMedia(query);
-          if (media.matches !== matches) {
-            setMatches(media.matches);
-          }
-      
-          const listener = () => {
-            setMatches(media.matches);
-          };
-      
-          if (typeof media.addEventListener === "function") {
+            const media = window.matchMedia(query);
+            if (media.matches !== matches) {
+                setMatches(media.matches);
+            }
+            
+            const listener = () => {
+                setMatches(media.matches);
+            };
+            
+            if (typeof media.addEventListener === "function") {
             media.addEventListener("change", listener);
           } else {
             media.addListener(listener);

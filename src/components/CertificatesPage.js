@@ -11,18 +11,20 @@ import { motion } from 'framer-motion'
 import Modal from 'react-bootstrap/Modal';
 import CardFlip from "../subComponents/CardFlip";
 
+import ReactGA from 'react-ga';
+
 const MainContainer = styled(motion.div)`
     background-color: ${props => props.theme.body};
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-
+    
     @media(max-width: 600px) {
         width: 100%;
         height: 100%;
     };
-`
+    `
 
 const Container = styled.div`
     background-color: ${props => `rgba(${props.theme.bodyRgba},0.8)`};
@@ -35,14 +37,14 @@ const Container = styled.div`
         width: 100%;
         height: 100%;
     };
-`
+    `
 
 const Center = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 10rem;
-`
+    `
 
 const Grid = styled.div`
     display: grid;
@@ -53,20 +55,20 @@ const Grid = styled.div`
     @media(max-width: 600px) {
         grid-template-columns: repeat(1, minmax(calc(10rem + 15vw), 1fr));
     };
-`
+    `
 
 const container = {
-
+    
     hidden: {opacity:0},
     show: {
-      opacity:1,
-  
-      transition:{
-        staggerChildren: 0.5,
+        opacity:1,
+        
+        transition:{
+            staggerChildren: 0.5,
         duration: 0.5,
       }
     }
-  
+    
 }
 
 const Date = styled.span`
@@ -74,28 +76,30 @@ const Date = styled.span`
   overflow: hidden;
   @media (max-width: 600px) {
       font-size: 10px;
-  };
-`;
+    };
+    `;
 
 const ModalCustom = styled(Modal)`
     .modal-content{
         color: #2E0909;
         background-color: #FCF6F4;
     }
-`
+    `
 
 const CertificatesPage = () => {
+    ReactGA.pageview(window.location.pathname + window.location.search);
+    
     const [show, setShow] = useState(false);
     const [selectedCertificade, setSelectedCertificade] = useState({});
-
+    
     const handleModal = (certificade) => {
         if(certificade)
-            setSelectedCertificade(certificade)
-        else
+        setSelectedCertificade(certificade)
+    else
             setSelectedCertificade({})
         setShow(!show)
     }
-
+    
     return (
         <>
         <ThemeProvider theme={LightTheme}>

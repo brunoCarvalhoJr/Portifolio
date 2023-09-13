@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import React from "react";
 import styled from "styled-components";
+import ReactGA from 'react-ga';
 
 const Box = styled(motion.a)`
   width: calc(10rem + 15vw);
@@ -98,6 +99,8 @@ const Item = {
 };
 
 const BlogComponent = (props) => {
+  ReactGA.pageview(window.location.pathname + window.location.search);
+
   const { name, tags, date, imgSrc, link } = props.blog;
   return (
     <Container variants={Item}>

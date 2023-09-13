@@ -2,6 +2,8 @@ import { motion } from "framer-motion";
 import React from "react";
 import styled from "styled-components";
 
+import ReactGA from 'react-ga';
+
 const Box = styled(motion.div)`
   width: calc(10rem + 15vw);
   text-decoration: none;
@@ -22,10 +24,10 @@ const Box = styled(motion.div)`
   };
   
   @media (max-width: 600px) {
-      width: calc(7rem + 10vw);
-      height: 12rem;
+    width: calc(7rem + 10vw);
+    height: 12rem;
   };
-`;
+  `;
 
 const Image = styled.img`
   background-image: ${(props) => `url(${props.img})`};
@@ -37,7 +39,7 @@ const Image = styled.img`
   ${Box}:hover & {
     border: 1px solid ${(props) => props.theme.body};
   };
-`;
+  `;
 
 const Container = styled(motion.div)``;
 
@@ -56,7 +58,10 @@ const Item = {
 };
 
 const CertificadeComponente = (props) => {
-    const { handleModal, certificade } = props;
+  
+  ReactGA.pageview(window.location.pathname + window.location.search);
+  
+  const { handleModal, certificade } = props;
   const { imgSrcFront } = certificade;
   return (
     <Container variants={Item}>

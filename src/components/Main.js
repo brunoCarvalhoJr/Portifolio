@@ -9,6 +9,7 @@ import { motion } from 'framer-motion';
 import TransitionEffect from "./TransitionEffect";
 import { ArrowUp } from "./SVGs";
 
+import ReactGA from 'react-ga';
 const MainContainer = styled.div`
     background: ${props => props.theme.body};
     width: 100vw;
@@ -23,7 +24,7 @@ const MainContainer = styled.div`
 
 const Container = styled.div`
     padding: 2rem;
-`
+    `
 
 const Trajetoria = styled(NavLink)`
     color: ${props => props.theme.text};
@@ -32,13 +33,13 @@ const Trajetoria = styled(NavLink)`
     right: calc(1rem + 2vw);
     text-decoration: none;
     z-index:1;
-
+    
     @media(max-width: 600px) {
         color: ${props => props.click ? props.theme.body : props.theme.text};
         transition: color 1s ease;
         transition-delay: 1s;
     };
-`
+    `
 
 const BLOG = styled(NavLink)`
     color: ${props => props.theme.text};
@@ -48,14 +49,14 @@ const BLOG = styled(NavLink)`
     transform: rotate(90deg) translate(-50%, -50%);
     text-decoration: none;
     z-index:1;
-
+    
     @media(max-width: 600px) {
         color: ${props => props.click ? props.theme.body : props.theme.text};
         transition: color 1s ease;
         transition-delay: 1s;
         top: 42%;
     };
-`
+    `
 
 const WORK = styled(NavLink)`
     color: ${props => props.click ? props.theme.body : props.theme.text};
@@ -65,14 +66,14 @@ const WORK = styled(NavLink)`
     transform: translate(-50%, -50%) rotate(-90deg) ;
     text-decoration: none;
     z-index:1;
-
+    
     @media(max-width: 600px) {
         color: ${props => props.click ? props.theme.body : props.theme.text};
         transition: color 1s ease;
         transition-delay: 1s;
         top: 40%;
     };
-`
+    `
 
 const BottomBar = styled.div`
     position: absolute;
@@ -82,7 +83,7 @@ const BottomBar = styled.div`
     width: 100%;
     display: flex;
     justify-content: space-evenly;
-`
+    `
 
 const ABOUT = styled(NavLink)`
     color: ${props => props.click ? props.theme.body : props.theme.text};
@@ -92,7 +93,7 @@ const ABOUT = styled(NavLink)`
     @media(max-width: 600px) {
         color: ${props => props.theme.text};
     };
-`
+    `
 
 const CERTIFICADES = styled(NavLink)`
     color: ${props => props.click ? props.theme.body : props.theme.text};
@@ -103,7 +104,7 @@ const CERTIFICADES = styled(NavLink)`
     @media(max-width: 600px) {
         color: ${props => props.theme.text};
     };
-`
+    `
 
 const SKILLS = styled(NavLink)`
     color: ${props => props.theme.text};
@@ -122,7 +123,7 @@ const rotate = keyframes`
     to{
         transform: rotate(360deg);
     };
-`
+    `
 
 const Center = styled.button`
     position: absolute;
@@ -158,29 +159,29 @@ const DarkDiv = styled.div`
     height: ${props => props.click ? '100%' : '0%'};
     z-index:1;
     transition: height 0.5s ease, width 1s ease 0.5s, background-color ${props => props.click ? '' : '5s ease'};
-   
-
+    
+    
     @media(max-width: 600px) {
         right: 0%;
         width: ${props => props.click ? '100%' : '0%'};
         height: ${props => props.click ? '50%' : '0%'};
     };
-`
+    `
 
 const Img = styled.img`
     width: ${props => props.click ? '100px' : '200px'};
     height: ${props => props.click ? '100px' : '200px'};
-
+    
     transition: all;
     transition-delay: ${props => props.click ? 'none' :'1s'  };
     transition-duration: 1s;
-
+    
     @media(max-width: 600px) {
         width: ${props => props.click ? '60px' : '120px'};
         height: ${props => props.click ? '60px' : '120px'};
         margin-right: ${props => props.click ? '3rem' : ''};
     };
-`
+    `
 
 const show = {
     opacity: 1,
@@ -194,7 +195,7 @@ const hide = {
         display: "none"
     }
 };
-  
+
 const hide2 = {
     opacity: 0,
 };
@@ -204,7 +205,9 @@ const show2 = {
 };
 
 const Main = () => {
-
+    
+    ReactGA.pageview(window.location.pathname + window.location.search);
+    
     const [click, setClick] = useState(false);
 
     const handleClick = () => setClick(!click);
@@ -212,7 +215,7 @@ const Main = () => {
     useEffect(() => {
         return () => <TransitionEffect />
     })
-
+    
     return (
         <MainContainer>
             <DarkDiv click={click}/>

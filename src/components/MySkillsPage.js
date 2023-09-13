@@ -8,6 +8,7 @@ import PowerButton from "../subComponents/PowerButton";
 import ParticleComponent from "../subComponents/ParticleComponent";
 import BigTitlte from "../subComponents/BigTitle";
 
+import ReactGA from 'react-ga';
 const Box = styled.div`
     
     background-color: ${props => props.theme.body};
@@ -19,7 +20,7 @@ const Box = styled.div`
     display: grid;
     grid-template-columns: repeat(2, minmax(calc(10rem + 15vw), 1fr));
     grid-gap: calc(1rem + 2vw);
-
+    
     @media (max-width: 1200px) {
         grid-template-columns: repeat(1, minmax(calc(10rem + 15vw), 1fr));
     }
@@ -48,12 +49,12 @@ const Main = styled.div`
         margin-top: 8rem;
         margin-left: 9rem;
     }
-
+    
     @media (max-width: 1278px) {
         margin-top: 8rem;
         margin-left: 4.5rem;
     }
-
+    
     @media (max-width: 1200px) {
         margin-top: 8rem;
         margin-left: 25rem;
@@ -63,7 +64,7 @@ const Main = styled.div`
         margin-top: 8rem;
         margin-left: 15rem;
     }
-
+    
     @media (max-width: 700px) {
         margin-top: 8rem;
         margin-left: 15rem;
@@ -73,17 +74,17 @@ const Main = styled.div`
         margin-top: 8rem;
         margin-left: 6.5rem;
     }
-
+    
     font-family: 'Ubuntu Mono', monospace;
     display:flex;
     flex-direction: column;
     justify-content: space-between;
-
+    
     &:hover{
         color: ${props => props.theme.body};
         background-color: ${props => props.theme.text};
     }
-`
+    `
 
 const Title = styled.h2`
     display: flex;
@@ -100,18 +101,18 @@ const Title = styled.h2`
         font-size: calc(0.7rem + 0.7vw);
         padding: 0.1rem 0;
     }
-
-
+    
+    
     ${Main}:hover &{
         &>*{
             fill:${props => props.theme.body};
         }
     }
-
+    
     &>*:first-child{
         margin-right: 1rem;
     }
-`
+    `
 
 const Description = styled.div`
     color: ${props => props.theme.text};
@@ -127,16 +128,16 @@ const Description = styled.div`
         font-size: calc(0.65rem + 0.65vw);
         padding: 0.1rem 0;
     }
-
+    
     ${Main}:hover &{
         color:${props => props.theme.body};
     }
-
+    
     strong{
         margin-bottom: 1rem;
         text-transform: uppercase;
     }
-
+    
     ul,p{
         margin-left: 2rem;
         
@@ -144,10 +145,13 @@ const Description = styled.div`
             margin-left: 0.7rem;
         }
     }
-`
+    `
 
 
 const MySkillsPage = () => {
+    
+    ReactGA.pageview(window.location.pathname + window.location.search);
+    
     return (
         <ThemeProvider theme={LightTheme}>
             <Box>

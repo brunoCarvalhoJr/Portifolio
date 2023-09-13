@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { motion }  from 'framer-motion';
 
 
+import ReactGA from 'react-ga';
 const Box1 = styled(motion.div)`
     position: fixed;
     z-index:90;
@@ -12,7 +13,7 @@ const Box1 = styled(motion.div)`
     width: 100%;
     height:auto;
     background-color:${props => props.theme.text};
-`
+    `
 
 const Box2 = styled(motion.div)`
     position: fixed;
@@ -23,7 +24,7 @@ const Box2 = styled(motion.div)`
     width: 100%;
     height:auto;
     background-color:${props => props.theme.body};
-`
+    `
 
 const Box3 = styled(motion.div)`
     position: fixed;
@@ -34,9 +35,12 @@ const Box3 = styled(motion.div)`
     width: 100%;
     height: auto;
     background-color:${props => props.theme.text};
-`
+    `
 
 const TransitionEffect = () => {
+    
+    ReactGA.pageview(window.location.pathname + window.location.search);
+
     return (
         <>
             <Box1
