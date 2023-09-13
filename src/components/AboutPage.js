@@ -64,20 +64,18 @@ const Main =  styled.div`
     padding: 2rem;
     width: 50vw;
     height: min-content;
-    z-index: 3;
+    z-index: 60;
     line-height: 1.5;
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     font-size: calc(0.6rem + 0.8vw);
-    backdrop-filter: blur(4px);
-    
+    /*backdrop-filter: blur(4px); esta prop começou a dar problemas*/
     position: absolute;
     left: calc(5rem + 5vw);
     top: 10rem;
     font-family: 'Ubuntu Mono', monospace;
     font-style: italic;
-    
     
     @media (max-height: 800px) {
         font-size: calc(0.6rem + 0.6vw);
@@ -96,7 +94,7 @@ const AboutPage = () => {
                 <Spaceman>
                     <img src={brunoimg} alt="spaceman" />
                 </Spaceman>    
-                <Main>
+                <Main tabindex="0">
                     Sou um Desenvolvedor Full Stack. Fascinado pelo meu trabalho, adoro criar sistemas e sites com designers minimalistas e com ótima experiencia de usuário utilizando.
                     <br /> <br/>
                     Alem disto, meu conhecimento em backend e banco de dados me permite criar sistemas robustos e escaláveis.
