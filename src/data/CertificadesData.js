@@ -35,10 +35,11 @@ import MicrosoftAccessEazycomp from "../assets/Images/certificades/Microsoft Acc
 import MicrosoftInternetOutllokEazycomp from "../assets/Images/certificades/Microsoft Internet  - Outlook EazyComp.jpeg"
 import MarketingPessoal from "../assets/Images/certificades/T&D Marketing Pessoal .jpeg"
 import LoginApiGoogle from "../assets/Images/certificades/LoginApi-reactjs+AspNet.CORE.jpg"
+import AspNetCoreMvcSqlServer from "../assets/Images/certificades/Certificado AspnetCore Identity + mvc e web Api.jpg"
 
 export const Certificades = [
     {
-        id:27,
+        id:28,
         name:"Bacharel em Ciências da Computação",
         date:"08 de Janeiro de 2014",
         workload: undefined,
@@ -47,7 +48,7 @@ export const Certificades = [
         imgSrcBack: undefined
     },
     {
-        id:26,
+        id:27,
         name:"Certificado PSM1",
         date:"06 de Maio de 2023",
         workload: undefined,
@@ -56,7 +57,7 @@ export const Certificades = [
         imgSrcBack: undefined
     },
     {
-        id:25,
+        id:26,
         name:"Formação Java Caelum",
         date:"28 de Agosto de 2015",
         workload: 100,
@@ -65,12 +66,21 @@ export const Certificades = [
         imgSrcBack: undefined
     },
     {
-        id:24,
+        id:25,
         name:"Java Desenvolvimento Web",
         date:"21 de Agosto de 2015",
         workload: 40,
         school: "Caelum",
         imgSrcFront:JavaDesenvolvimentoWeb,
+        imgSrcBack: undefined
+    },
+    {
+        id:24,
+        name:"Asp.NET Core Identity + MVC e WebApi + Sql Server + EF Core",
+        date:"13 de Setembro de 2023",
+        workload: undefined,
+        school: "Udemy",
+        imgSrcFront:AspNetCoreMvcSqlServer,
         imgSrcBack: undefined
     },
     {

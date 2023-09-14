@@ -159,7 +159,7 @@ const MySkillsPage = () => {
                 <SocialIcons theme="light" />
                 <PowerButton />
                 <BigTitlte text="Habilidades" top="70%" left="30%" />
-                <ParticleComponent theme="light" />
+                <ParticleComponent />
 
                 <Main>
                     <Title>
