@@ -9,6 +9,7 @@ import ParticleComponent from "../subComponents/ParticleComponent";
 import BigTitlte from "../subComponents/BigTitle";
 
 import ReactGA from 'react-ga';
+
 const Box = styled.div`
     
     background-color: ${props => props.theme.body};
@@ -84,7 +85,7 @@ const Main = styled.div`
         color: ${props => props.theme.body};
         background-color: ${props => props.theme.text};
     }
-    `
+`
 
 const Title = styled.h2`
     display: flex;
@@ -112,7 +113,7 @@ const Title = styled.h2`
     &>*:first-child{
         margin-right: 1rem;
     }
-    `
+`
 
 const Description = styled.div`
     color: ${props => props.theme.text};
@@ -145,7 +146,7 @@ const Description = styled.div`
             margin-left: 0.7rem;
         }
     }
-    `
+`
 
 
 const MySkillsPage = () => {
@@ -159,7 +160,7 @@ const MySkillsPage = () => {
                 <SocialIcons theme="light" />
                 <PowerButton />
                 <BigTitlte text="Habilidades" top="70%" left="30%" />
-                <ParticleComponent />
+                <ParticleComponent theme="light" />
 
                 <Main>
                     <Title>

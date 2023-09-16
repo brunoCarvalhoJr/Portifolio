@@ -35,7 +35,7 @@ import MicrosoftAccessEazycomp from "../assets/Images/certificades/Microsoft Acc
 import MicrosoftInternetOutllokEazycomp from "../assets/Images/certificades/Microsoft Internet  - Outlook EazyComp.jpeg"
 import MarketingPessoal from "../assets/Images/certificades/T&D Marketing Pessoal .jpeg"
 import LoginApiGoogle from "../assets/Images/certificades/LoginApi-reactjs+AspNet.CORE.jpg"
-import AspNetCoreMvcSqlServer from "../assets/Images/certificades/Certificado AspnetCore Identity + mvc e web Api.jpg"
+import AspNetCoreMvcSqlServer from "../assets/Images/certificades/Certificado-AspnetCore-Identity.jpg"
 
 export const Certificades = [
     {
