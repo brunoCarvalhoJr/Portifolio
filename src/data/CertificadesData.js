@@ -35,7 +35,7 @@ import MicrosoftAccessEazycomp from "../assets/Images/certificades/Microsoft Acc
 import MicrosoftInternetOutllokEazycomp from "../assets/Images/certificades/Microsoft Internet  - Outlook EazyComp.jpeg"
 import MarketingPessoal from "../assets/Images/certificades/T&D Marketing Pessoal .jpeg"
 import LoginApiGoogle from "../assets/Images/certificades/LoginApi-reactjs+AspNet.CORE.jpg"
-import AspNetCoreMvcSqlServer from "../assets/Images/certificades/Certificado-AspnetCore-Identity.jpg"
+import AspNetCoreMvcSqlServer from "../assets/Images/certificades/Certificado-AspnetCore-Identity+mvc-e-web.jpg"
 import CertificadoJiraFundamental from "../assets/Images/certificades/CertificadoJira.png"
 
 export const Certificades = [
@@ -95,42 +95,15 @@ export const Certificades = [
     },
     {
         id:23,
-        name:"Asp.NET Core Identity + MVC e WebApi + Sql Server + EF Core",
-        date:"13 de Setembro de 2023",
-        workload: undefined,
-        school: "Udemy",
-        imgSrcFront:AspNetCoreMvcSqlServer,
+        name:"Scrum - Professional Scrum Master - Scrum.ORG",
+        date:"25 de Julho de 2023",
+        workload: 16,
+        school: "Adapt Ideas",
+        imgSrcFront:ScrumFundationProfessionalAdaptIdeas,
         imgSrcBack: undefined
     },
     {
         id:22,
-        name:"Certificado Ultimate Authentication with GoogleApi + ReactJs + AspNet.CORE",
-        date:"31 de Agosto de 2023",
-        workload: 3,
-        school: "Udemy",
-        imgSrcFront: LoginApiGoogle,
-        imgSrcBack: undefined
-    },
-    {
-        id:21,
-        name:"Certificado Full Stack ReactJs + React Router 6 + .NET6 + EF Core",
-        date:"12 de Agosto de 2023",
-        workload: 16.5,
-        school: "Udemy",
-        imgSrcFront: CertificadoFullStackReactRouter6NET6EFCoreUdemy,
-        imgSrcBack: undefined
-    },
-    {
-        id:20,
-        name:"Certificado ReactJs + Rest API ASP.NET Core",
-        date:"02 de Maio de 2022",
-        workload: 5,
-        school: "Udemy",
-        imgSrcFront:CertificadoReactJsRestApiUdemy,
-        imgSrcBack: undefined
-    },
-    {
-        id:19,
         name:"Scrum - Scrum Fundation Professional Certificate",
         date:"06 de Abril de 2019",
         workload: undefined,
@@ -139,7 +112,7 @@ export const Certificades = [
         imgSrcBack: undefined
     },
     {
-        id:18,
+        id:21,
         name:"Scrum - Scrum Fundation Professional Certificate",
         date:"25 de Julho de 2023",
         workload: undefined,
@@ -148,12 +121,39 @@ export const Certificades = [
         imgSrcBack: undefined
     },
     {
+        id:20,
+        name:"Asp.NET Core Identity + MVC e WebApi + Sql Server + EF Core",
+        date:"13 de Setembro de 2023",
+        workload: undefined,
+        school: "Udemy",
+        imgSrcFront:AspNetCoreMvcSqlServer,
+        imgSrcBack: undefined
+    },
+    {
+        id:19,
+        name:"Certificado Ultimate Authentication with GoogleApi + ReactJs + AspNet.CORE",
+        date:"31 de Agosto de 2023",
+        workload: 3,
+        school: "Udemy",
+        imgSrcFront: LoginApiGoogle,
+        imgSrcBack: undefined
+    },
+    {
+        id:18,
+        name:"Certificado Full Stack ReactJs + React Router 6 + .NET6 + EF Core",
+        date:"12 de Agosto de 2023",
+        workload: 16.5,
+        school: "Udemy",
+        imgSrcFront: CertificadoFullStackReactRouter6NET6EFCoreUdemy,
+        imgSrcBack: undefined
+    },
+    {
         id:17,
-        name:"Scrum - Professional Scrum Master - Scrum.ORG",
-        date:"25 de Julho de 2023",
-        workload: 16,
-        school: "Adapt Ideas",
-        imgSrcFront:ScrumFundationProfessionalAdaptIdeas,
+        name:"Certificado ReactJs + Rest API ASP.NET Core",
+        date:"02 de Maio de 2022",
+        workload: 5,
+        school: "Udemy",
+        imgSrcFront:CertificadoReactJsRestApiUdemy,
         imgSrcBack: undefined
     },
     {
