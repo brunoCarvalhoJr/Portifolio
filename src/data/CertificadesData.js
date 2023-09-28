@@ -36,10 +36,11 @@ import MicrosoftInternetOutllokEazycomp from "../assets/Images/certificades/Micr
 import MarketingPessoal from "../assets/Images/certificades/T&D Marketing Pessoal .jpeg"
 import LoginApiGoogle from "../assets/Images/certificades/LoginApi-reactjs+AspNet.CORE.jpg"
 import AspNetCoreMvcSqlServer from "../assets/Images/certificades/Certificado-AspnetCore-Identity.jpg"
+import CertificadoJiraFundamental from "../assets/Images/certificades/CertificadoJira.png"
 
 export const Certificades = [
     {
-        id:28,
+        id:29,
         name:"Bacharel em Ciências da Computação",
         date:"08 de Janeiro de 2014",
         workload: undefined,
@@ -48,7 +49,7 @@ export const Certificades = [
         imgSrcBack: undefined
     },
     {
-        id:27,
+        id:28,
         name:"Certificado PSM1",
         date:"06 de Maio de 2023",
         workload: undefined,
@@ -57,7 +58,7 @@ export const Certificades = [
         imgSrcBack: undefined
     },
     {
-        id:26,
+        id:27,
         name:"Formação Java Caelum",
         date:"28 de Agosto de 2015",
         workload: 100,
@@ -66,7 +67,7 @@ export const Certificades = [
         imgSrcBack: undefined
     },
     {
-        id:25,
+        id:26,
         name:"Java Desenvolvimento Web",
         date:"21 de Agosto de 2015",
         workload: 40,
@@ -75,21 +76,30 @@ export const Certificades = [
         imgSrcBack: undefined
     },
     {
-        id:24,
-        name:"Asp.NET Core Identity + MVC e WebApi + Sql Server + EF Core",
-        date:"13 de Setembro de 2023",
-        workload: undefined,
-        school: "Udemy",
-        imgSrcFront:AspNetCoreMvcSqlServer,
-        imgSrcBack: undefined
-    },
-    {
-        id:23,
+        id:25,
         name:"Java Orientação a Objetos",
         date:"07 de Agosto de 2015",
         workload: 40,
         school: "Caelum",
         imgSrcFront:JavaOrientacaoObjeto,
+        imgSrcBack: undefined
+    },
+    {
+        id:24,
+        name:"Certificação Jira Fundamentals Badge",
+        date:"28 de Setembro de 2023",
+        workload: undefined,
+        school: "Atlassian University Badge",
+        imgSrcFront:CertificadoJiraFundamental,
+        imgSrcBack: undefined
+    },
+    {
+        id:23,
+        name:"Asp.NET Core Identity + MVC e WebApi + Sql Server + EF Core",
+        date:"13 de Setembro de 2023",
+        workload: undefined,
+        school: "Udemy",
+        imgSrcFront:AspNetCoreMvcSqlServer,
         imgSrcBack: undefined
     },
     {
