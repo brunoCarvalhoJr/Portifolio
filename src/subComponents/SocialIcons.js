@@ -100,7 +100,7 @@ const SocialIcons = (props) => {
                 animate={{ scale: [0.01, 1.2, 1] }}
                 transition={{ type: "spring", duration: 1, delay: 2.8}}
             >
-                <NavLink target="_blank" to={"https://instagram.com/bruno_carvalhojr/"}>
+                <NavLink target="_blank" to={"https://instagram.com/dev_em_gotas/"}>
                     <Instragram height={25} width={25} fill={props.theme === "dark"  ? DarkTheme.text : DarkTheme.body } />
                 </NavLink>
             </motion.div>
