@@ -1,5 +1,85 @@
 export const Blogs = [
     {
+        id:22,
+        name:"A Dança do Design: Desvendando a Lei de Conway",
+        tags:["lei de conway, conway"],
+        date:"4 de dezembro de 2023",
+        imgSrc:"https://media.licdn.com/dms/image/D4D12AQFwZMmlbMUFng/article-cover_image-shrink_423_752/0/1701189729834?e=1707955200&v=beta&t=ZML0nOjFNwHUY2981UBFeUFX9bFrS2ZsWFoJiWQQI48",
+        link:"https://www.linkedin.com/pulse/dan%25C3%25A7a-do-design-desvendando-lei-de-conway-bruno-l9nvf/?trackingId=JXAjv4djRfyucLouo%2Fsl8A%3D%3D"
+    },
+    {
+        id:21,
+        name:"On-Premise, Cloud e o Híbrido oque é ? qual e quando usar?",
+        tags:["onprimise, cloud, hibrid, hibrido"],
+        date:"28 de novembro de 2023",
+        imgSrc:"https://media.licdn.com/dms/image/D4D12AQHOvVJ6WCN1TQ/article-cover_image-shrink_423_752/0/1700518886847?e=1707955200&v=beta&t=4ej9pshgCwr5IbuCTwJgEKm7LHVY_2L18LY7eHdR240",
+        link:"https://www.linkedin.com/pulse/on-premise-cloud-e-o-h%25C3%25ADbrido-oque-%25C3%25A9-qual-quando-usar-bruno-fxcef/?trackingId=JXAjv4djRfyucLouo%2Fsl8A%3D%3D"
+    },
+    {
+        id:20,
+        name:"Depuração Eficiente no Visual Studio: Desvendando os Segredos do Debugging",
+        tags:["bug, depuracao, visual studio, debugar, debugando"],
+        date:"20 de novembro de 2023",
+        imgSrc:"https://media.licdn.com/dms/image/D4D12AQHulyeh8DLRJA/article-cover_image-shrink_720_1280/0/1700510714726?e=1707955200&v=beta&t=YrpvY1tm0G0JPbI6BgQ3gPgInt2PoJ1uMh1Le9YhOxg",
+        link:"https://www.linkedin.com/pulse/depura%25C3%25A7%25C3%25A3o-eficiente-visual-studio-desvendando-os-do-bruno-xjcrf/?trackingId=JXAjv4djRfyucLouo%2Fsl8A%3D%3D"
+    },
+    {
+        id:19,
+        name:"Desvendando o BFF - Backend para Frontend: Uma Abordagem Estratégica na Arquitetura de Software Moderna",
+        tags:["bff, pattern, designpattern, backend for frontend"],
+        date:"13 de novembro de 2023",
+        imgSrc:"https://media.licdn.com/dms/image/D4D12AQExTKGMWKzXjw/article-cover_image-shrink_423_752/0/1699896155513?e=1707955200&v=beta&t=WcO6cOEvCWBPmPpdu4wR5_-qDUgumnaRCqzuqeFebZo",
+        link:"https://www.linkedin.com/pulse/desvendando-o-bff-backend-para-frontend-uma-na-de-bruno-oehef/?trackingId=JXAjv4djRfyucLouo%2Fsl8A%3D%3D"
+    },
+    {
+        id:18,
+        name:"A magia do reconhecimento profissional indo além dos números",
+        tags:["reconhecimento, empresa, satisfacao, reconhecer"],
+        date:"12 de outubro de 2023",
+        imgSrc:"https://media.licdn.com/dms/image/D4D12AQEtsSaGAFDZGA/article-cover_image-shrink_720_1280/0/1697119061598?e=1707955200&v=beta&t=RvN0CEomKwKIWDAcMk3AUlrspTVl7B0l0jHvXZwgdzU",
+        link:"https://www.linkedin.com/pulse/magia-do-reconhecimento-profissional-indo-al%25C3%25A9m-dos-bruno-7ud9f/?trackingId=JXAjv4djRfyucLouo%2Fsl8A%3D%3D"
+    },
+    {
+        id:17,
+        name:"Aproveitando todo o potencial do TypeScript: Utilizando Interfaces para Definir Tipos de Dados em Projetos ReactJS",
+        tags:["typescript, react, frontend, javascript"],
+        date:"24 de julho de 2023",
+        imgSrc:"https://media.licdn.com/dms/image/D4D12AQHF1SNXi8tjbw/article-inline_image-shrink_1000_1488/0/1689515801304?e=1707955200&v=beta&t=yBeG61CmQjSYy6V7O_MQKMwFSAnYA9HLJxgjQjRh0Ig",
+        link:"https://www.linkedin.com/pulse/aproveitando-todo-o-potencial-do-typescript-para-de-bruno/?trackingId=JXAjv4djRfyucLouo%2Fsl8A%3D%3D"
+    },
+    {
+        id:16,
+        name:"A Importância dos Testes Unitários: Garantindo a Qualidade e a Confiabilidade de seus Projetos",
+        tags:["unitTest, test, security, tdd"],
+        date:"24 de julho de 2023",
+        imgSrc:"https://media.licdn.com/dms/image/D4D12AQHB80isaHqr_Q/article-cover_image-shrink_423_752/0/1689512579786?e=1707955200&v=beta&t=QmqSCtjEw9dUQJlInzAKxNckqjdgM_xg-9x2GFCd02Y",
+        link:"https://www.linkedin.com/pulse/import%25C3%25A2ncia-dos-testes-unit%25C3%25A1rios-garantindo-qualidade-bruno/?trackingId=JXAjv4djRfyucLouo%2Fsl8A%3D%3D"
+    },
+    {
+        id:15,
+        name:"A sua vida financeira está segura? Segurança Digital",
+        tags:["seguranca, segurancadigital, security"],
+        date:"17 de julho de 2023",
+        imgSrc:"https://media.licdn.com/dms/image/D4D12AQE-YEqgzfT6Bg/article-cover_image-shrink_720_1280/0/1683775333743?e=1707955200&v=beta&t=3ZDOSMJmuZC25S4odV9Yzr9hZxEZQOpblSxzlrM0ULM",
+        link:"https://www.linkedin.com/pulse/sua-vida-financeira-est%25C3%25A1-segura-seguran%25C3%25A7a-digital-bruno/?trackingId=JXAjv4djRfyucLouo%2Fsl8A%3D%3D"
+    },
+    {
+        id:14,
+        name:"Como usar a IA para aumentar sua produtividade",
+        tags:["ia, produtividade"],
+        date:"10 de julho de 2023",
+        imgSrc:"https://media.licdn.com/dms/image/D4D12AQHpASRyH6vbHw/article-cover_image-shrink_720_1280/0/1683774508733?e=1707955200&v=beta&t=ZDyQ6hns5nnpOkFwspm8M-hKBWwaFMk2IA8OPB0iIXw",
+        link:"https://www.linkedin.com/pulse/como-usar-ia-para-aumentar-sua-produtividade-bruno/?trackingId=JXAjv4djRfyucLouo%2Fsl8A%3D%3D"
+    },
+    {
+        id:13,
+        name:"Como criar uma aplicação React com Vite",
+        tags:["vite, frontend, creeate vite, react"],
+        date:"3 de julho de 2023",
+        imgSrc:"https://media.licdn.com/dms/image/D4D12AQHEwDtQ_nxMIg/article-cover_image-shrink_720_1280/0/1683772754114?e=1707955200&v=beta&t=y5OFztaT2Bn4zYhmE5pyrthBmdYWPiVOgGhsD7vzIBM",
+        link:"https://www.linkedin.com/pulse/como-criar-uma-aplica%25C3%25A7%25C3%25A3o-react-com-vite-henrique-moreira-carvalho/?trackingId=JXAjv4djRfyucLouo%2Fsl8A%3D%3D"
+    },
+    {
         id:12,
         name:"Clean code no ASPET Core",
         tags:["cleancode, aspnet core, coding, developer, aspnetcore"],
