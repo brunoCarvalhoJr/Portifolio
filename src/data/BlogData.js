@@ -84,7 +84,7 @@ export const Blogs = [
         name:"Clean code no ASPET Core",
         tags:["cleancode, aspnet core, coding, developer, aspnetcore"],
         date:"26 de junho de 2023",
-        imgSrc:"https://media.licdn.com/dms/image/D4D12AQEInjryXWZGKg/article-cover_image-shrink_423_752/0/1683773613211?e=1693440000&v=beta&t=-_aappKpuBcxj_m9I-7SkJHjewTpGNCMZHHIObhydzE",
+        imgSrc:"https://media.licdn.com/dms/image/D4D12AQEInjryXWZGKg/article-cover_image-shrink_423_752/0/1683773613211?e=1707955200&v=beta&t=RWxdKFmw2X3R1Rqo_6H13AlBaBFbm27Q7-g0b0qBVxQ",
         link:"https://www.linkedin.com/pulse/clean-code-aspet-core-bruno-henrique-moreira-carvalho/?trackingId=%2B%2BorPDt0Temq3oPbjer%2Bdw%3D%3D"
     },
     {
@@ -92,7 +92,7 @@ export const Blogs = [
         name:"Como criar ação ReactJs com create-react-app",
         tags:["create-react-app, ReactJs, ferramentaweb"],
         date:"19 de junho de 2023",
-        imgSrc:"https://media.licdn.com/dms/image/D4D12AQG8jlbSFKwvnA/article-cover_image-shrink_423_752/0/1683771998105?e=1693440000&v=beta&t=b2ahjWAKRC5XsNGU9M0O4J5Y3kR-FL8L3EMlHoMClpQ",
+        imgSrc:"https://media.licdn.com/dms/image/D4D12AQG8jlbSFKwvnA/article-cover_image-shrink_720_1280/0/1683771998104?e=1707955200&v=beta&t=uAy-N88tEgMGGMjm-4-9s3_Kg2xlO1YgKuqZIEDnCz8",
         link:"https://www.linkedin.com/pulse/como-criar-a%25C3%25A7%25C3%25A3o-reactjs-com-create-react-app-bruno/?trackingId=%2B%2BorPDt0Temq3oPbjer%2Bdw%3D%3D"
     },
     {
@@ -100,7 +100,7 @@ export const Blogs = [
         name:"Gerenciamento de Estado com React Hooks",
         tags:["ReactJs, Hooks, react-hooks, WebDeveloper, state"],
         date:"12 de junho de 2023",
-        imgSrc:"https://media.licdn.com/dms/image/D4D12AQFqMCJ1bo1cjg/article-cover_image-shrink_423_752/0/1683771307292?e=1693440000&v=beta&t=-Udbky-QCN3iWxIO49GtdpWR3VdXFYg6JpaeomoFHJ0",
+        imgSrc:"https://media.licdn.com/dms/image/D4D12AQFqMCJ1bo1cjg/article-cover_image-shrink_720_1280/0/1683771307292?e=1707955200&v=beta&t=kfeqysoPqlaQCjm3YdAvaOV6bY4p8kAt3lgYotW1yRg",
         link:"https://www.linkedin.com/pulse/gerenciamento-de-estado-com-react-hooks-henrique-moreira-carvalho/?trackingId=%2B%2BorPDt0Temq3oPbjer%2Bdw%3D%3D"
     },
     {
@@ -108,7 +108,7 @@ export const Blogs = [
         name:"Class Components",
         tags:["ReactJs, ClassComponents, DesenvolvimentoWeb, WebDeveloper, Components"],
         date:"5 de junho de 2023",
-        imgSrc:"https://media.licdn.com/dms/image/D4D12AQFxWUAK7MNslw/article-cover_image-shrink_423_752/0/1683736083050?e=1693440000&v=beta&t=3u7N55AIaxaYDf7vyzFOTJ_yk0ZfLvAmO7N_Azp6MXA",
+        imgSrc:"https://media.licdn.com/dms/image/D4D12AQFxWUAK7MNslw/article-cover_image-shrink_423_752/0/1683736083050?e=1707955200&v=beta&t=5eAMohxiuzfQfqRZlyl4SkAe4j8luhrJS9YGujfcGT8",
         link:"https://www.linkedin.com/pulse/componentes-de-classe-em-reactjs-bruno-henrique-moreira-carvalho/?trackingId=%2B%2BorPDt0Temq3oPbjer%2Bdw%3D%3D"
     },
     {
@@ -124,7 +124,7 @@ export const Blogs = [
         name:"Componentes Funcionais react",
         tags:["FunctionComponentes","React","Components"],
         date:"22 de maio de 2023",
-        imgSrc:"https://media.licdn.com/dms/image/D4D12AQGUVePzQTH07g/article-cover_image-shrink_423_752/0/1683738294526?e=1697673600&v=beta&t=4DPfx-XYdAm9mkG_08ANlyKD527zKE35CJ967SXdHKs",
+        imgSrc:"https://media.licdn.com/dms/image/D4D12AQGUVePzQTH07g/article-cover_image-shrink_720_1280/0/1683738294526?e=1707955200&v=beta&t=1GT4qUXN0Upw-uI1NITP5paoQhwo0cKxsxA_uayKUhk",
         link:"https://www.linkedin.com/pulse/componentes-funcionais-react-bruno-henrique-moreira-carvalho/?trackingId=QFFoA38oSHWzC9J5290Jxw%3D%3D"
     },
     {
@@ -140,7 +140,7 @@ export const Blogs = [
         name:"Scrum em 2023, ágil? Vale a pena?",
         tags:["scrum","agil","frameworkscrum","scrum2023","framework","scrum guid"],
         date:"7 de maio de 2023",
-        imgSrc:"https://media.licdn.com/dms/image/D4D12AQHEST8Vo6R8jw/article-cover_image-shrink_423_752/0/1683428806344?e=1697673600&v=beta&t=0oV12955TSrSTyacfVxM_CQfpsOO5hnk8dNDQ6TSrl8",
+        imgSrc:"https://media.licdn.com/dms/image/D4D12AQHEST8Vo6R8jw/article-cover_image-shrink_720_1280/0/1683428806344?e=1707955200&v=beta&t=DFjBxQreRjTLpstivMr6FM3kpywXuwhMfUWte678nqg",
         link:"https://www.linkedin.com/pulse/scrum-em-2023-%2525C3%2525A1gil-vale-pena-bruno-henrique-moreira-carvalho%3FtrackingId=hnO4evK5SZydCqzk0GA6Ww%253D%253D/?trackingId=hnO4evK5SZydCqzk0GA6Ww%3D%3D"
     },
     {
@@ -148,7 +148,7 @@ export const Blogs = [
         name:"O que é ReactJS e por que é tão popular ? E ainda vale a pena utilizar em 2023 ?",
         tags:["react","reactjs","reactnative","reactjs2023","webdevelopment","webdev"],
         date:"1 de maio de 2023",
-        imgSrc:"https://media.licdn.com/dms/image/D4E12AQHOgnbfYsMEmQ/article-cover_image-shrink_600_2000/0/1682980539955?e=1697673600&v=beta&t=0fKHESs7LBOqJNXY9_57bUKNdijnLZn49UNllzYx8Ho",
+        imgSrc:"https://media.licdn.com/dms/image/D4D12AQHGgFtOjDoSvg/article-cover_image-shrink_720_1280/0/1682381454558?e=1707955200&v=beta&t=Or9D-4vC5_2gCeLlVc1yM8TtnmPchs_doElTdRohuK4",
         link:"https://www.linkedin.com/pulse/o-que-%25C3%25A9-reactjs-e-por-t%25C3%25A3o-popular-ainda-vale-pena-em-bruno/?published=t"
     },
     {
