@@ -73,7 +73,7 @@ const SocialIcons = (props) => {
                 animate={{ scale: [0.01, 1.2, 1] }}
                 transition={{ type: "spring", duration: 1, delay: 2.2 }}
             >
-                <NavLink target="_blank" to={"https://www.linkedin.com/in/bruno-henrique-moreira-carvalho-2b543546/"}>
+                <NavLink target="_blank" to={"https://www.linkedin.com/in/bruno-henrique-moreira-carvalho-junior-2b543546"}>
                     <Linkedin height={25} width={25} fill={props.theme === "dark"  ? DarkTheme.text : DarkTheme.body } />
                 </NavLink>
             </motion.div>
