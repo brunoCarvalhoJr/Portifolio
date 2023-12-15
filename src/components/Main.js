@@ -229,7 +229,12 @@ const Main = () => {
                         animate={click ? hide : show}
                         transition={{delay: click ? 0 : 2}}
                     >
-                        <ArrowUp onClick={() => handleClick()} />
+                        <motion.div
+                            animate={{ y: [-10, 10, -10] }}
+                            transition={{ duration: 1.5, repeat: Infinity }}
+                        >
+                            <ArrowUp onClick={() => handleClick()} />
+                        </motion.div>
                     </motion.span>
                 </Center>
 
