@@ -39,7 +39,11 @@ const Trajetoria = styled(NavLink)`
         transition: color 1s ease;
         transition-delay: 1s;
     };
-    `
+    
+    @media (max-width: 450px) {
+        scale: 0.7
+    }
+`
 
 const BLOG = styled(NavLink)`
     color: ${props => props.theme.text};
@@ -56,7 +60,11 @@ const BLOG = styled(NavLink)`
         transition-delay: 1s;
         top: 42%;
     };
-    `
+    
+    @media (max-width: 450px) {
+        scale: 0.7
+    }
+`
 
 const WORK = styled(NavLink)`
     color: ${props => props.click ? props.theme.body : props.theme.text};
@@ -73,7 +81,7 @@ const WORK = styled(NavLink)`
         transition-delay: 1s;
         top: 40%;
     };
-    `
+`
 
 const BottomBar = styled.div`
     position: absolute;
@@ -83,7 +91,11 @@ const BottomBar = styled.div`
     width: 100%;
     display: flex;
     justify-content: space-evenly;
-    `
+    
+    @media (max-width: 450px) {
+        padding-left: 50px;
+    }
+`
 
 const ABOUT = styled(NavLink)`
     color: ${props => props.click ? props.theme.body : props.theme.text};
@@ -93,7 +105,11 @@ const ABOUT = styled(NavLink)`
     @media(max-width: 600px) {
         color: ${props => props.theme.text};
     };
-    `
+    
+    @media (max-width: 450px) {
+        scale: 0.7
+    }
+`
 
 const CERTIFICADES = styled(NavLink)`
     color: ${props => props.click ? props.theme.body : props.theme.text};
@@ -104,7 +120,11 @@ const CERTIFICADES = styled(NavLink)`
     @media(max-width: 600px) {
         color: ${props => props.theme.text};
     };
-    `
+    
+    @media (max-width: 450px) {
+        scale: 0.7
+    }
+`
 
 const SKILLS = styled(NavLink)`
     color: ${props => props.theme.text};
@@ -114,6 +134,10 @@ const SKILLS = styled(NavLink)`
     @media(max-width: 600px) {
         color: ${props => props.theme.text};
     };
+    
+    @media (max-width: 450px) {
+        scale: 0.7
+    }
 `
 
 const rotate = keyframes`
