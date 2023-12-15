@@ -97,7 +97,7 @@ const BottomBar = styled.div`
     justify-content: space-evenly;
     
     @media (max-width: 450px) {
-        padding-left: 60px;
+        padding-left: 70px;
     }
 `
 
