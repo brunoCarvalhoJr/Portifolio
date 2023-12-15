@@ -139,6 +139,7 @@ const Center = styled.button`
     justify-content: center;
     align-items: center;
     transition: all 1s ease;
+    z-index: 1450;
     transition-delay: ${props => props.click ? 'none' :'1s'  };
     &>:first-child{
         animation: ${rotate} infinite 2.5s linear;
@@ -222,22 +223,26 @@ const Main = () => {
                 <Container>
                 <LogoComponent  theme={click ? 'dark' : 'light'}/>
                 <SocialIcons theme={click ? 'dark' : 'light'}/>
-
                 <Center click={click}>
                     <Img click={click}  onClick={() => handleClick()} fill='currentColor' src={YinYang} alt="IngYang" />
                     <motion.span
-                        animate={click ? hide : show}
+                        animate={click ? {opacity: 0} : {opacity: 1}}
                         transition={{delay: click ? 0 : 2}}
                     >
                         <motion.div
-                            animate={{ y: [-10, 10, -10] }}
-                            transition={{ duration: 1.5, repeat: Infinity }}
+                        initial={{opacity: 0}}
+                        animate={click ? {opacity: 0} : {opacity: 1}}
+                        transition={{ duration:1, delay: 2}}
                         >
-                            <ArrowUp onClick={() => handleClick()} />
+                            <motion.div
+                                animate={{ y: [-10, 10, -10] }}
+                                transition={{ duration: 1.5, repeat: Infinity }}
+                            >
+                                <ArrowUp onClick={() => handleClick()} />
+                            </motion.div>
                         </motion.div>
                     </motion.span>
                 </Center>
-
                 <Trajetoria click={click} to="/trajectory">
                     <motion.h2
                         initial={{

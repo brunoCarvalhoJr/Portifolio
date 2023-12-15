@@ -76,11 +76,11 @@ const Main = styled.div`
         margin-left: 6.5rem;
     }
     
-    @media (max-width: 370px) {
+    @media (max-width: 450px) {
         margin-top: 8rem;
         margin-left: 6.5rem;
         width:  50vw;
-        height: 110vh;
+        height: auto;
     }
 
     font-family: 'Ubuntu Mono', monospace;
@@ -110,7 +110,7 @@ const Title = styled.h2`
         padding: 0.1rem 0;
     }
     
-    @media (max-width: 370px) {
+    @media (max-width: 450px) {
         font-size: calc(0.7rem + 0.7vw);
     }
     
@@ -157,8 +157,7 @@ const Description = styled.div`
         }
     }
     
-    
-    @media (max-width: 370px) {
+    @media (max-width: 450px) {
         font-size: calc(0.6rem + 0.6vw);
     }
 `

@@ -6,7 +6,7 @@ import { motion }  from 'framer-motion';
 import ReactGA from 'react-ga';
 const Box1 = styled(motion.div)`
     position: fixed;
-    z-index:90;
+    z-index:1500;
     bottom: 0;
     top: 0;
     right: fill;
@@ -17,7 +17,7 @@ const Box1 = styled(motion.div)`
 
 const Box2 = styled(motion.div)`
     position: fixed;
-    z-index:  80;
+    z-index:  1490;
     bottom: 0;
     top: 0;
     right: fill;
@@ -28,7 +28,7 @@ const Box2 = styled(motion.div)`
 
 const Box3 = styled(motion.div)`
     position: fixed;
-    z-index: 70;
+    z-index: 1480;
     bottom: 0;
     top: 0;
     right: fill;
