@@ -30,6 +30,11 @@ const Line = styled(motion.span)`
     background-color: ${(props) => props.color === "dark" ? DarkTheme.text : DarkTheme.body};
 `;
 
+const DivIcon = styled.div`
+    @media (max-width: 450px) {
+        scale: 0.8
+    }
+`;
 
 const SocialIcons = (props) => {
 
@@ -73,45 +78,55 @@ const SocialIcons = (props) => {
                 animate={{ scale: [0.01, 1.2, 1] }}
                 transition={{ type: "spring", duration: 1, delay: 2.2 }}
             >
-                <NavLink target="_blank" to={"https://www.linkedin.com/in/bruno-henrique-moreira-carvalho-junior-2b543546"}>
-                    <Linkedin height={25} width={25} fill={props.theme === "dark"  ? DarkTheme.text : DarkTheme.body } />
-                </NavLink>
+                <DivIcon>
+                    <NavLink target="_blank" to={"https://www.linkedin.com/in/bruno-henrique-moreira-carvalho-junior-2b543546"}>
+                        <Linkedin height={25} width={25} fill={props.theme === "dark"  ? DarkTheme.text : DarkTheme.body } />
+                    </NavLink>
+                </DivIcon>
             </motion.div>
             <motion.div
                 initial={{scale:0 }}
                 animate={{ scale: [0.01, 1.2, 1]}}
                 transition={{ type: "spring", duration: 1, delay: 2.4}}
             >
-                <NavLink target="_blank" to={"https://github.com/brunoCarvalhoJr"}>
-                    <Github height={25} width={25} fill={props.theme === "dark"  ? DarkTheme.text : DarkTheme.body } />
-                </NavLink>
+                <DivIcon>
+                    <NavLink target="_blank" to={"https://github.com/brunoCarvalhoJr"}>
+                        <Github height={25} width={25} fill={props.theme === "dark"  ? DarkTheme.text : DarkTheme.body } />
+                    </NavLink>
+                </DivIcon>
             </motion.div>
             <motion.div
                 initial={{scale:0 }}
                 animate={{ scale: [0.01, 1.2, 1] }}
                 transition={{ type: "spring", duration: 1, delay: 2.6}}
             >
-                <NavLink target="_blank" to={"https://wa.me/5535997389755"}>
-                    <WhatsApp height={25} width={25} fill={props.theme === "dark"  ? DarkTheme.text : DarkTheme.body } />
-                </NavLink>
+                <DivIcon>
+                    <NavLink target="_blank" to={"https://wa.me/5535997389755"}>
+                        <WhatsApp height={25} width={25} fill={props.theme === "dark"  ? DarkTheme.text : DarkTheme.body } />
+                    </NavLink>
+                </DivIcon>
             </motion.div>
             <motion.div
                 initial={{scale:0 }}
                 animate={{ scale: [0.01, 1.2, 1] }}
                 transition={{ type: "spring", duration: 1, delay: 2.8}}
             >
-                <NavLink target="_blank" to={"https://instagram.com/dev_em_gotas/"}>
-                    <Instragram height={25} width={25} fill={props.theme === "dark"  ? DarkTheme.text : DarkTheme.body } />
-                </NavLink>
+                <DivIcon>
+                    <NavLink target="_blank" to={"https://instagram.com/dev_em_gotas/"}>
+                        <Instragram height={25} width={25} fill={props.theme === "dark"  ? DarkTheme.text : DarkTheme.body } />
+                    </NavLink>
+                </DivIcon>
             </motion.div>
             <motion.div
                 initial={{scale:0 }}
                 animate={{ scale: [0.01, 1.2, 1] }}
                 transition={{ type: "spring", duration: 1, delay: 2.8}}
             >
-                <NavLink target="_blank" to={"mailto:bruno.jr.ti@hotmail.com"}>
-                    <Mail height={25} width={25} fill={props.theme === "dark"  ? DarkTheme.text : DarkTheme.body } />
-                </NavLink>
+                <DivIcon>
+                    <NavLink target="_blank" to={"mailto:bruno.jr.ti@hotmail.com"}>
+                        <Mail height={25} width={25} fill={props.theme === "dark"  ? DarkTheme.text : DarkTheme.body } />
+                    </NavLink>
+                </DivIcon>
             </motion.div>
 
             <Line color={props.theme}
@@ -121,7 +136,7 @@ const SocialIcons = (props) => {
                 animate={isSmall ? {
                     height: '4rem'
                 } : {
-                    height: '0.2rem'
+                    height: '2rem'
                 }}
                 transition={{
                     type: 'spring',  duration: 1, delay:2
