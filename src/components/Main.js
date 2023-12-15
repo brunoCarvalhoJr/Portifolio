@@ -81,6 +81,10 @@ const WORK = styled(NavLink)`
         transition-delay: 1s;
         top: 40%;
     };
+    
+    @media (max-width: 450px) {
+        scale: 0.7
+    }
 `
 
 const BottomBar = styled.div`
@@ -147,7 +151,7 @@ const rotate = keyframes`
     to{
         transform: rotate(360deg);
     };
-    `
+`
 
 const Center = styled.button`
     position: absolute;
