@@ -76,6 +76,13 @@ const Main = styled.div`
         margin-left: 6.5rem;
     }
     
+    @media (max-width: 370px) {
+        margin-top: 8rem;
+        margin-left: 6.5rem;
+        width:  50vw;
+        height: 110vh;
+    }
+
     font-family: 'Ubuntu Mono', monospace;
     display:flex;
     flex-direction: column;
@@ -88,7 +95,7 @@ const Main = styled.div`
 `
 
 const Title = styled.h2`
-    display: flex;
+    display: inline-block;
     justify-content: center;
     align-items: center;
     font-size: calc(1em  + 1vw);
@@ -103,6 +110,9 @@ const Title = styled.h2`
         padding: 0.1rem 0;
     }
     
+    @media (max-width: 370px) {
+        font-size: calc(0.7rem + 0.7vw);
+    }
     
     ${Main}:hover &{
         &>*{
@@ -145,6 +155,11 @@ const Description = styled.div`
         @media (max-height: 850px) {
             margin-left: 0.7rem;
         }
+    }
+    
+    
+    @media (max-width: 370px) {
+        font-size: calc(0.6rem + 0.6vw);
     }
 `
 
