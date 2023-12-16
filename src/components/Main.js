@@ -97,7 +97,7 @@ const BottomBar = styled.div`
     justify-content: space-evenly;
     
     @media (max-width: 450px) {
-        padding-left: 70px;
+        padding-left: ${props => props.click ? '10px' : '70px'};
     }
 `
 
@@ -126,7 +126,8 @@ const CERTIFICADES = styled(NavLink)`
     };
     
     @media (max-width: 450px) {
-        scale: 0.7
+        scale: 0.7;
+        margin-right: ${props => props.click ? '0px' : ''};
     }
 `
 
@@ -319,7 +320,7 @@ const Main = () => {
                         Trabalhos
                     </motion.h2>
                 </WORK>
-                <BottomBar>
+                <BottomBar  click={click}>
                     <ABOUT click={+click} to="/about">
                         <motion.h2
                             initial={{
