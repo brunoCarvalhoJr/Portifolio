@@ -37,10 +37,11 @@ import MarketingPessoal from "../assets/Images/certificades/T&D Marketing Pessoa
 import LoginApiGoogle from "../assets/Images/certificades/LoginApi-reactjs+AspNet.CORE.jpg"
 import AspNetCoreMvcSqlServer from "../assets/Images/certificades/Certificado-AspnetCore-Identity+mvc-e-web.jpg"
 import CertificadoJiraFundamental from "../assets/Images/certificades/CertificadoJira.png"
+import CertificadoAluraUx from "../assets/Images/certificades/CertificadoAluraCursodeUX(1) _page-0001"
 
 export const Certificades = [
     {
-        id:29,
+        id:30,
         name:"Bacharel em Ciências da Computação",
         date:"08 de Janeiro de 2014",
         workload: undefined,
@@ -49,7 +50,7 @@ export const Certificades = [
         imgSrcBack: undefined
     },
     {
-        id:28,
+        id:29,
         name:"Certificado PSM1",
         date:"06 de Maio de 2023",
         workload: undefined,
@@ -58,7 +59,7 @@ export const Certificades = [
         imgSrcBack: undefined
     },
     {
-        id:27,
+        id:28,
         name:"Formação Java Caelum",
         date:"28 de Agosto de 2015",
         workload: 100,
@@ -67,7 +68,7 @@ export const Certificades = [
         imgSrcBack: undefined
     },
     {
-        id:26,
+        id:27,
         name:"Java Desenvolvimento Web",
         date:"21 de Agosto de 2015",
         workload: 40,
@@ -76,7 +77,7 @@ export const Certificades = [
         imgSrcBack: undefined
     },
     {
-        id:25,
+        id:26,
         name:"Java Orientação a Objetos",
         date:"07 de Agosto de 2015",
         workload: 40,
@@ -85,7 +86,7 @@ export const Certificades = [
         imgSrcBack: undefined
     },
     {
-        id:24,
+        id:25,
         name:"Certificação Jira Fundamentals Badge",
         date:"28 de Setembro de 2023",
         workload: undefined,
@@ -94,7 +95,7 @@ export const Certificades = [
         imgSrcBack: undefined
     },
     {
-        id:23,
+        id:24,
         name:"Scrum - Professional Scrum Master - Scrum.ORG",
         date:"25 de Julho de 2023",
         workload: 16,
@@ -103,7 +104,7 @@ export const Certificades = [
         imgSrcBack: undefined
     },
     {
-        id:22,
+        id:23,
         name:"Scrum - Scrum Fundation Professional Certificate",
         date:"06 de Abril de 2019",
         workload: undefined,
@@ -112,7 +113,7 @@ export const Certificades = [
         imgSrcBack: undefined
     },
     {
-        id:21,
+        id:22,
         name:"Scrum - Scrum Fundation Professional Certificate",
         date:"25 de Julho de 2023",
         workload: undefined,
@@ -121,7 +122,7 @@ export const Certificades = [
         imgSrcBack: undefined
     },
     {
-        id:20,
+        id:21,
         name:"Asp.NET Core Identity + MVC e WebApi + Sql Server + EF Core",
         date:"13 de Setembro de 2023",
         workload: undefined,
@@ -130,7 +131,7 @@ export const Certificades = [
         imgSrcBack: undefined
     },
     {
-        id:19,
+        id:20,
         name:"Certificado Ultimate Authentication with GoogleApi + ReactJs + AspNet.CORE",
         date:"31 de Agosto de 2023",
         workload: 3,
@@ -139,7 +140,7 @@ export const Certificades = [
         imgSrcBack: undefined
     },
     {
-        id:18,
+        id:19,
         name:"Certificado Full Stack ReactJs + React Router 6 + .NET6 + EF Core",
         date:"12 de Agosto de 2023",
         workload: 16.5,
@@ -148,7 +149,7 @@ export const Certificades = [
         imgSrcBack: undefined
     },
     {
-        id:17,
+        id:18,
         name:"Certificado ReactJs + Rest API ASP.NET Core",
         date:"02 de Maio de 2022",
         workload: 5,
@@ -157,7 +158,7 @@ export const Certificades = [
         imgSrcBack: undefined
     },
     {
-        id:16,
+        id:17,
         name:"Certificado Javascript Programando para Linguagem Web",
         date:"06 de Outubro de 2017",
         workload: 20,
@@ -166,7 +167,7 @@ export const Certificades = [
         imgSrcBack:CertificadoCursoJavascript3AluraVerso
     },
     {
-        id:15,
+        id:16,
         name:"Certificado VUE.JS  Contruindo Single Page Aplications Part 1",
         date:"07 de Dezembro de 2017",
         workload: 16,
@@ -175,13 +176,22 @@ export const Certificades = [
         imgSrcBack:CertificadoCursoVueJsAluraVerso
     },
     {
-        id:14,
+        id:15,
         name:"Certificado VUE.JS Contruindo Single Page Aplications",
         date:"07 de Dezembro de 2017",
         workload: 16,
         school: "Alura",
         imgSrcFront:CertificadoCursoVueJs2AluraFrente,
         imgSrcBack:CertificadoCursoVueJs2AluraVerso
+    },
+    {
+        id:14,
+        name:"Certificado UX Design",
+        date:"07 de Dezembro de 2017",
+        workload: 40,
+        school: "Alura",
+        imgSrcFront:CertificadoAluraUx,
+        imgSrcBack:undefined
     },
     {
         id:13,

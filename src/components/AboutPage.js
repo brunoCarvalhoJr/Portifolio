@@ -59,6 +59,7 @@ const Spaceman = styled.div`
         display: none;
     }
 `
+
 const Main =  styled.div`
     border: 2px solid ${(props) => props.theme.text};
     color: ${(props) => props.theme.text};
@@ -80,6 +81,10 @@ const Main =  styled.div`
     
     @media (max-height: 800px) {
         font-size: calc(0.6rem + 0.6vw);
+    }
+    
+    @media (max-width: 450px) {
+        padding: 1rem;
     }
 `
 
