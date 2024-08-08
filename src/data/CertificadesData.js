@@ -37,7 +37,7 @@ import MarketingPessoal from "../assets/Images/certificades/T&D Marketing Pessoa
 import LoginApiGoogle from "../assets/Images/certificades/LoginApi-reactjs+AspNet.CORE.jpg"
 import AspNetCoreMvcSqlServer from "../assets/Images/certificades/Certificado-AspnetCore-Identity+mvc-e-web.jpg"
 import CertificadoJiraFundamental from "../assets/Images/certificades/CertificadoJira.png"
-import CertificadoAluraUx from "../assets/Images/certificades/CertificadoAluraCursodeUX(1) _page-0001"
+import CertificadoAluraUx from "../assets/Images/certificades/CertificadoAluraCursodeUX(1) _page-0001.jpg"
 
 export const Certificades = [
     {
