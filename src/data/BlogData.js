@@ -68,7 +68,7 @@ export const Blogs = [
         name:"Como usar a IA para aumentar sua produtividade",
         tags:["ia, produtividade"],
         date:"10 de julho de 2023",
-        imgSrc:"https://media.licdn.com/dms/image/D4D12AQHpASRyH6vbHw/article-cover_image-shrink_720_1280/0/1683774508733?e=1707955200&v=beta&t=ZDyQ6hns5nnpOkFwspm8M-hKBWwaFMk2IA8OPB0iIXw",
+        imgSrc:"https://media.licdn.com/dms/image/v2/D4D12AQHpASRyH6vbHw/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1683774508733?e=1730937600&v=beta&t=YRuYpvb-1f_4TLy-lPQi3ZW-bTsCtjj1Se5WwpqPyHk",
         link:"https://www.linkedin.com/pulse/como-usar-ia-para-aumentar-sua-produtividade-bruno/?trackingId=JXAjv4djRfyucLouo%2Fsl8A%3D%3D"
     },
     {
@@ -76,7 +76,7 @@ export const Blogs = [
         name:"Como criar uma aplicação React com Vite",
         tags:["vite, frontend, creeate vite, react"],
         date:"3 de julho de 2023",
-        imgSrc:"https://media.licdn.com/dms/image/D4D12AQHEwDtQ_nxMIg/article-cover_image-shrink_720_1280/0/1683772754114?e=1707955200&v=beta&t=y5OFztaT2Bn4zYhmE5pyrthBmdYWPiVOgGhsD7vzIBM",
+        imgSrc:"https://media.licdn.com/dms/image/v2/D4D12AQHEwDtQ_nxMIg/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1683772754114?e=1730937600&v=beta&t=i39u66bM2VfXzieOVwZX-pOME5i4C1pIAkADJUIEfXY",
         link:"https://www.linkedin.com/pulse/como-criar-uma-aplica%25C3%25A7%25C3%25A3o-react-com-vite-henrique-moreira-carvalho/?trackingId=JXAjv4djRfyucLouo%2Fsl8A%3D%3D"
     },
     {
@@ -84,7 +84,7 @@ export const Blogs = [
         name:"Clean code no ASPET Core",
         tags:["cleancode, aspnet core, coding, developer, aspnetcore"],
         date:"26 de junho de 2023",
-        imgSrc:"https://media.licdn.com/dms/image/D4D12AQEInjryXWZGKg/article-cover_image-shrink_423_752/0/1683773613211?e=1707955200&v=beta&t=RWxdKFmw2X3R1Rqo_6H13AlBaBFbm27Q7-g0b0qBVxQ",
+        imgSrc:"https://media.licdn.com/dms/image/v2/D4D12AQEInjryXWZGKg/article-cover_image-shrink_423_752/article-cover_image-shrink_423_752/0/1683773613211?e=1730937600&v=beta&t=dLssOYTG7wtJvdC5kiaaXSwI3OD9CeXXsLJpxYkvTe4",
         link:"https://www.linkedin.com/pulse/clean-code-aspet-core-bruno-henrique-moreira-carvalho/?trackingId=%2B%2BorPDt0Temq3oPbjer%2Bdw%3D%3D"
     },
     {
@@ -92,7 +92,7 @@ export const Blogs = [
         name:"Como criar ação ReactJs com create-react-app",
         tags:["create-react-app, ReactJs, ferramentaweb"],
         date:"19 de junho de 2023",
-        imgSrc:"https://media.licdn.com/dms/image/D4D12AQG8jlbSFKwvnA/article-cover_image-shrink_720_1280/0/1683771998104?e=1707955200&v=beta&t=uAy-N88tEgMGGMjm-4-9s3_Kg2xlO1YgKuqZIEDnCz8",
+        imgSrc:"https://media.licdn.com/dms/image/v2/D4D12AQG8jlbSFKwvnA/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1683771998104?e=1730937600&v=beta&t=EC2Jlyf71IjDKPDgpA2bqJQkbmp166EYiBbowopLdig",
         link:"https://www.linkedin.com/pulse/como-criar-a%25C3%25A7%25C3%25A3o-reactjs-com-create-react-app-bruno/?trackingId=%2B%2BorPDt0Temq3oPbjer%2Bdw%3D%3D"
     },
     {
@@ -100,7 +100,7 @@ export const Blogs = [
         name:"Gerenciamento de Estado com React Hooks",
         tags:["ReactJs, Hooks, react-hooks, WebDeveloper, state"],
         date:"12 de junho de 2023",
-        imgSrc:"https://media.licdn.com/dms/image/D4D12AQFqMCJ1bo1cjg/article-cover_image-shrink_720_1280/0/1683771307292?e=1707955200&v=beta&t=kfeqysoPqlaQCjm3YdAvaOV6bY4p8kAt3lgYotW1yRg",
+        imgSrc:"https://media.licdn.com/dms/image/v2/D4D12AQFqMCJ1bo1cjg/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1683771307292?e=1730937600&v=beta&t=gxe380eWAIsNFLl7gNdKjVGiTRU07H3_Ifltprpq0ng",
         link:"https://www.linkedin.com/pulse/gerenciamento-de-estado-com-react-hooks-henrique-moreira-carvalho/?trackingId=%2B%2BorPDt0Temq3oPbjer%2Bdw%3D%3D"
     },
     {
@@ -108,7 +108,7 @@ export const Blogs = [
         name:"Class Components",
         tags:["ReactJs, ClassComponents, DesenvolvimentoWeb, WebDeveloper, Components"],
         date:"5 de junho de 2023",
-        imgSrc:"https://media.licdn.com/dms/image/D4D12AQFxWUAK7MNslw/article-cover_image-shrink_423_752/0/1683736083050?e=1707955200&v=beta&t=5eAMohxiuzfQfqRZlyl4SkAe4j8luhrJS9YGujfcGT8",
+        imgSrc:"https://media.licdn.com/dms/image/v2/D4D12AQFxWUAK7MNslw/article-cover_image-shrink_423_752/article-cover_image-shrink_423_752/0/1683736083050?e=1730937600&v=beta&t=Ae10qe2HcR8BeXhtX3Uo4QqWEulET-itq0sAXMhLyQ8",
         link:"https://www.linkedin.com/pulse/componentes-de-classe-em-reactjs-bruno-henrique-moreira-carvalho/?trackingId=%2B%2BorPDt0Temq3oPbjer%2Bdw%3D%3D"
     },
     {
@@ -132,7 +132,7 @@ export const Blogs = [
         name:"FluentValidation Asp.Net Core",
         tags:["FluentValidation","Asp.Net","ASPNETCore","Validacao","ValidaçãoDeCampos","#BibliotecasNET"],
         date:"15 de maio de 2023",
-        imgSrc:"https://media.licdn.com/dms/image/D4D12AQFHZy7bicoNbw/article-cover_image-shrink_423_752/0/1683768656961?e=1697673600&v=beta&t=mT4mSlQTU8EAziFd4tGqm6JnXdJNwSviR7Glsi5mvY4",
+        imgSrc:"https://dkrn4sk0rn31v.cloudfront.net/uploads/2017/07/aplicacoes-self-contained-com-o-net-core.png",
         link:"https://www.linkedin.com/pulse/fluentvalidation-aspnet-core-bruno-henrique-moreira-carvalho%3FtrackingId=EvBC1igGR%252FWXjjfmwVoPnw%253D%253D/?trackingId=EvBC1igGR%2FWXjjfmwVoPnw%3D%3D"
     },
     {
@@ -140,7 +140,7 @@ export const Blogs = [
         name:"Scrum em 2023, ágil? Vale a pena?",
         tags:["scrum","agil","frameworkscrum","scrum2023","framework","scrum guid"],
         date:"7 de maio de 2023",
-        imgSrc:"https://media.licdn.com/dms/image/D4D12AQHEST8Vo6R8jw/article-cover_image-shrink_720_1280/0/1683428806344?e=1707955200&v=beta&t=DFjBxQreRjTLpstivMr6FM3kpywXuwhMfUWte678nqg",
+        imgSrc:"https://media.licdn.com/dms/image/v2/D4D12AQHEST8Vo6R8jw/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1683428806344?e=1730937600&v=beta&t=JCwFlvDryGUasA1EzZ0-n83osoZDRleJmsqJHsUSGqo",
         link:"https://www.linkedin.com/pulse/scrum-em-2023-%2525C3%2525A1gil-vale-pena-bruno-henrique-moreira-carvalho%3FtrackingId=hnO4evK5SZydCqzk0GA6Ww%253D%253D/?trackingId=hnO4evK5SZydCqzk0GA6Ww%3D%3D"
     },
     {
