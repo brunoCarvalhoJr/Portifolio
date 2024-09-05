@@ -28,7 +28,7 @@ export const Blogs = [
         name:"Desvendando o BFF - Backend para Frontend: Uma Abordagem Estratégica na Arquitetura de Software Moderna",
         tags:["bff, pattern, designpattern, backend for frontend"],
         date:"13 de novembro de 2023",
-        imgSrc:"https://media.licdn.com/dms/image/D4D12AQExTKGMWKzXjw/article-cover_image-shrink_423_752/0/1699896155513?e=1707955200&v=beta&t=WcO6cOEvCWBPmPpdu4wR5_-qDUgumnaRCqzuqeFebZo",
+        imgSrc:"https://miro.medium.com/v2/resize:fit:720/format:webp/1*DjYwISvJBvoKSVXcMmfJXQ.png",
         link:"https://www.linkedin.com/pulse/desvendando-o-bff-backend-para-frontend-uma-na-de-bruno-oehef/?trackingId=JXAjv4djRfyucLouo%2Fsl8A%3D%3D"
     },
     {
@@ -36,7 +36,7 @@ export const Blogs = [
         name:"A magia do reconhecimento profissional indo além dos números",
         tags:["reconhecimento, empresa, satisfacao, reconhecer"],
         date:"12 de outubro de 2023",
-        imgSrc:"https://media.licdn.com/dms/image/D4D12AQEtsSaGAFDZGA/article-cover_image-shrink_720_1280/0/1697119061598?e=1707955200&v=beta&t=RvN0CEomKwKIWDAcMk3AUlrspTVl7B0l0jHvXZwgdzU",
+        imgSrc:"https://media.licdn.com/dms/image/v2/D4D12AQEtsSaGAFDZGA/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1697119061598?e=1730937600&v=beta&t=eaRktmTgxyUIPuYfQEliOY5V2tHMh2bWX9qFMgWY_b0",
         link:"https://www.linkedin.com/pulse/magia-do-reconhecimento-profissional-indo-al%25C3%25A9m-dos-bruno-7ud9f/?trackingId=JXAjv4djRfyucLouo%2Fsl8A%3D%3D"
     },
     {
@@ -44,7 +44,7 @@ export const Blogs = [
         name:"Aproveitando todo o potencial do TypeScript: Utilizando Interfaces para Definir Tipos de Dados em Projetos ReactJS",
         tags:["typescript, react, frontend, javascript"],
         date:"24 de julho de 2023",
-        imgSrc:"https://media.licdn.com/dms/image/D4D12AQHF1SNXi8tjbw/article-inline_image-shrink_1000_1488/0/1689515801304?e=1707955200&v=beta&t=yBeG61CmQjSYy6V7O_MQKMwFSAnYA9HLJxgjQjRh0Ig",
+        imgSrc:"https://media.licdn.com/dms/image/v2/D4D12AQHnB5O-UP0Zcg/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1689515701776?e=1730937600&v=beta&t=nIpW1Nbw_rkF-Yg5FeOnU5jrETnxYs_uC9FkV4AMD64",
         link:"https://www.linkedin.com/pulse/aproveitando-todo-o-potencial-do-typescript-para-de-bruno/?trackingId=JXAjv4djRfyucLouo%2Fsl8A%3D%3D"
     },
     {
@@ -52,7 +52,7 @@ export const Blogs = [
         name:"A Importância dos Testes Unitários: Garantindo a Qualidade e a Confiabilidade de seus Projetos",
         tags:["unitTest, test, security, tdd"],
         date:"24 de julho de 2023",
-        imgSrc:"https://media.licdn.com/dms/image/D4D12AQHB80isaHqr_Q/article-cover_image-shrink_423_752/0/1689512579786?e=1707955200&v=beta&t=QmqSCtjEw9dUQJlInzAKxNckqjdgM_xg-9x2GFCd02Y",
+        imgSrc:"https://media.licdn.com/dms/image/v2/D4D12AQHB80isaHqr_Q/article-cover_image-shrink_423_752/article-cover_image-shrink_423_752/0/1689512579786?e=1730937600&v=beta&t=zbG7I1uwU-wXQcF3B9QNfinmjzDS5EovUTdZa7w0drw",
         link:"https://www.linkedin.com/pulse/import%25C3%25A2ncia-dos-testes-unit%25C3%25A1rios-garantindo-qualidade-bruno/?trackingId=JXAjv4djRfyucLouo%2Fsl8A%3D%3D"
     },
     {
@@ -60,7 +60,7 @@ export const Blogs = [
         name:"A sua vida financeira está segura? Segurança Digital",
         tags:["seguranca, segurancadigital, security"],
         date:"17 de julho de 2023",
-        imgSrc:"https://media.licdn.com/dms/image/D4D12AQE-YEqgzfT6Bg/article-cover_image-shrink_720_1280/0/1683775333743?e=1707955200&v=beta&t=3ZDOSMJmuZC25S4odV9Yzr9hZxEZQOpblSxzlrM0ULM",
+        imgSrc:"https://media.licdn.com/dms/image/v2/D4D12AQE-YEqgzfT6Bg/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1683775333743?e=1730937600&v=beta&t=b7syYUxX1H2b6TyFzMbegrGQJwDyOl3wHkGRkAoJuaI",
         link:"https://www.linkedin.com/pulse/sua-vida-financeira-est%25C3%25A1-segura-seguran%25C3%25A7a-digital-bruno/?trackingId=JXAjv4djRfyucLouo%2Fsl8A%3D%3D"
     },
     {
