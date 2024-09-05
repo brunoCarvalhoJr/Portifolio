@@ -4,7 +4,7 @@ export const Blogs = [
         name:"A Dança do Design: Desvendando a Lei de Conway",
         tags:["lei de conway, conway"],
         date:"4 de dezembro de 2023",
-        imgSrc:"https://media.licdn.com/dms/image/D4D12AQFwZMmlbMUFng/article-cover_image-shrink_423_752/0/1701189729834?e=1707955200&v=beta&t=ZML0nOjFNwHUY2981UBFeUFX9bFrS2ZsWFoJiWQQI48",
+        imgSrc:"https://miro.medium.com/v2/resize:fit:640/format:webp/1*zVkimtbOQZooq5et9eibuQ.png",
         link:"https://www.linkedin.com/pulse/dan%25C3%25A7a-do-design-desvendando-lei-de-conway-bruno-l9nvf/?trackingId=JXAjv4djRfyucLouo%2Fsl8A%3D%3D"
     },
     {
@@ -12,7 +12,7 @@ export const Blogs = [
         name:"On-Premise, Cloud e o Híbrido oque é ? qual e quando usar?",
         tags:["onprimise, cloud, hibrid, hibrido"],
         date:"28 de novembro de 2023",
-        imgSrc:"https://media.licdn.com/dms/image/D4D12AQHOvVJ6WCN1TQ/article-cover_image-shrink_423_752/0/1700518886847?e=1707955200&v=beta&t=4ej9pshgCwr5IbuCTwJgEKm7LHVY_2L18LY7eHdR240",
+        imgSrc:"https://miro.medium.com/v2/resize:fit:720/format:webp/1*b4AQvZsU7A40Q5QZ9NU5Sg.png",
         link:"https://www.linkedin.com/pulse/on-premise-cloud-e-o-h%25C3%25ADbrido-oque-%25C3%25A9-qual-quando-usar-bruno-fxcef/?trackingId=JXAjv4djRfyucLouo%2Fsl8A%3D%3D"
     },
     {
@@ -20,7 +20,7 @@ export const Blogs = [
         name:"Depuração Eficiente no Visual Studio: Desvendando os Segredos do Debugging",
         tags:["bug, depuracao, visual studio, debugar, debugando"],
         date:"20 de novembro de 2023",
-        imgSrc:"https://media.licdn.com/dms/image/D4D12AQHulyeh8DLRJA/article-cover_image-shrink_720_1280/0/1700510714726?e=1707955200&v=beta&t=YrpvY1tm0G0JPbI6BgQ3gPgInt2PoJ1uMh1Le9YhOxg",
+        imgSrc:"https://miro.medium.com/v2/resize:fit:720/format:webp/1*SQ9XeihV-MAfXxBY7AAuSg.jpeg",
         link:"https://www.linkedin.com/pulse/depura%25C3%25A7%25C3%25A3o-eficiente-visual-studio-desvendando-os-do-bruno-xjcrf/?trackingId=JXAjv4djRfyucLouo%2Fsl8A%3D%3D"
     },
     {
