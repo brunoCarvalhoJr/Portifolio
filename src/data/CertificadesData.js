@@ -38,16 +38,27 @@ import LoginApiGoogle from "../assets/Images/certificades/LoginApi-reactjs+AspNe
 import AspNetCoreMvcSqlServer from "../assets/Images/certificades/Certificado-AspnetCore-Identity+mvc-e-web.jpg"
 import CertificadoJiraFundamental from "../assets/Images/certificades/CertificadoJira.png"
 import CertificadoAluraUx from "../assets/Images/certificades/CertificadoAluraCursodeUX(1) _page-0001.jpg"
+import MBAFrente from "../assets/Images/certificades/MBA-arquitetura-full-cycle.jpg"
+import MBAVerso from "../assets/Images/certificades/MBA-arquitetura-full-cycle-verso.jpg"
 
 export const Certificades = [
     {
-        id:30,
-        name:"Bacharel em Ciências da Computação",
-        date:"08 de Janeiro de 2014",
+        id:31,
+        name:"MBA Arquitetura Full Cycle",
+        date:"01 de Junho de 2025",
         workload: undefined,
         school: "Universidade Nove de Julho",
         imgSrcFront:CertificadoGraduacao,
         imgSrcBack: undefined
+    },
+    {
+        id:30,
+        name:"Bacharel em Ciências da Computação",
+        date:"08 de Janeiro de 2014",
+        workload: 600,
+        school: "Full Cycle Universit",
+        imgSrcFront:MBAFrente,
+        imgSrcBack:MBAVerso
     },
     {
         id:29,
