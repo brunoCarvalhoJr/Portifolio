@@ -56,7 +56,7 @@ export const Certificades = [
         name:"Bacharel em Ciências da Computação",
         date:"08 de Janeiro de 2014",
         workload: 600,
-        school: "Full Cycle Universit",
+        school: "Full Cycle Tech",
         imgSrcFront:MBAFrente,
         imgSrcBack:MBAVerso
     },
