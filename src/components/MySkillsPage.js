@@ -221,23 +221,28 @@ const MySkillsPage = () => {
                 </Main>
                 <Main>
                     <Title>
-                        <Design width={40} height={40} /> Designer
+                        <Design width={40} height={40} /> Arquiteto Full Cycle
                     </Title>
                     <Description>
-                        Adoro criar designers explicativos,
-                        limpos e minimalistas. 
-                        Buscando sempre Compreender a cada dia o usuário, 
-                        com um pensamento crítico procuro atender e criar soluções 
-                        de design que atendam a essas necessidades.
+                        Apaixonado por desenvolver soluções completas, escaláveis e de alta qualidade. 
+                        Busco compreender as necessidades do negócio e do usuário, 
+                        aplicando pensamento crítico e visão sistêmica para projetar arquiteturas robustas 
+                        e alinhadas com boas práticas de desenvolvimento e metodologias ágeis.
                     </Description>
                     <Description>
                         <strong>Habilidades</strong>
                         <ul>
                             <li>
-                                Web Sites
+                                Arquitetura de Sistemas Web
                             </li>
                             <li>
-                                Sistemas Web
+                                Integração Front-end e Back-end (ReactJS / .NET)
+                            </li>
+                            <li>
+                                Práticas DevOps e Deploy Contínuo
+                            </li>
+                            <li>
+                                Metodologias Ágeis e Ciclo de Vida de Software
                             </li>
                         </ul>
                     </Description>
