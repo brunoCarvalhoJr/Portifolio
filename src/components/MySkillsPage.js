@@ -231,14 +231,7 @@ const MySkillsPage = () => {
                     </Description>
                     <Description>
                         <strong>Habilidades</strong>
-                        <ul>
-                            <li>
-                                Arquitetura de Sistemas Web
-                            </li>
-                            <li>
-                                Agile e Ciclo de Vida de Software
-                            </li>
-                        </ul>
+                        <p>Arquitetura de Sistemas Web, Agile,  Ciclo de Vida de Software</p>
                     </Description>
                 </Main>
             </Box>
