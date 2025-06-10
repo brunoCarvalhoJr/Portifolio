@@ -236,13 +236,7 @@ const MySkillsPage = () => {
                                 Arquitetura de Sistemas Web
                             </li>
                             <li>
-                                Integração Front-end e Back-end (ReactJS / .NET)
-                            </li>
-                            <li>
-                                Práticas DevOps e Deploy Contínuo
-                            </li>
-                            <li>
-                                Metodologias Ágeis e Ciclo de Vida de Software
+                                Agile e Ciclo de Vida de Software
                             </li>
                         </ul>
                     </Description>
