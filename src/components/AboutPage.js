@@ -104,7 +104,7 @@ const AboutPage = () => {
                     <img src={brunoimg} alt="spaceman" />
                 </Spaceman>    
                 <Main tabindex="0">
-                    Sou um Desenvolvedor Full Stack. Fascinado pelo meu trabalho, adoro criar sistemas e sites com designers minimalistas e com ótima experiencia de usuário utilizando.
+                    Sou um Arquiteto de Software Full Cycle e Desenvolvedor Full Stack Sênior com foco em ReactJs e .Net. Fascinado pelo meu trabalho, adoro criar sistemas e sites com designers minimalistas e com ótima experiencia de usuário utilizando.
                     <br /> <br/>
                     Alem disto, meu conhecimento em backend e banco de dados me permite criar sistemas robustos e escaláveis.
                     <br/> <br/>

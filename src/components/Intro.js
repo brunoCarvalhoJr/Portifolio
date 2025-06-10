@@ -208,7 +208,7 @@ const Intro = (props) => {
                 <Text>
                     <H1>Olá,</H1>
                     <H4>Sou Bruno Carvalho.</H4>
-                    <H6>Um Full Stack Developer e Scrum Master.</H6>
+                    <H6>Arquiteto de Software Full Cycle com foco em ReactJs e .Net</H6>
                 </Text>
             </SubBox>
             <SubBox>
