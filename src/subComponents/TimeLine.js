@@ -257,6 +257,18 @@ const Card = (props) => {
                       e capas de aplicar e disseminar o framework mais utilizado na área de desenvolvimento.
                     </div>
                 </li>
+                <li>
+                    <div className="date">2025</div>
+                    <div className="title">MBA Arquitetura Full Cycle</div>
+                    <div className="descr">
+                      Neste ano conclui meu MBA em Arquitetura Full Cycle, 
+                      Capacitação avançada para atuar como Arquiteto de Software Full Cycle, 
+                      com domínio integral no ciclo de vida do desenvolvimento de sistemas. 
+                      Abrangendo arquitetura de soluções, integração entre front-end e back-end, 
+                      práticas de DevOps, gestão ágil de projetos e garantia de qualidade, 
+                      preparando para a criação de sistemas escaláveis, robustos e alinhados às necessidades do negócio.
+                    </div>
+                </li>
             </Timeline>
             <ThreeDots height={100} width={100} style={{justifySelf: 'center', color: '#4F2F2E', marginLeft: '2rem'}}/>
         </Container>
